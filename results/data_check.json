@@ -1,0 +1,186 @@
+{
+  "source_commit": "5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb",
+  "cities": {
+    "file": "data/raw/geometry-of-truth/datasets/cities.csv",
+    "format": "CSV, comma-separated, header row",
+    "columns": {
+      "statement": "str",
+      "label": "int64",
+      "city": "str",
+      "country": "str",
+      "correct_country": "str"
+    },
+    "n_rows": 1496,
+    "n_missing": 0,
+    "n_duplicate_statements": 0,
+    "label_counts": {
+      "0": 748,
+      "1": 748
+    },
+    "label_prop_true": 0.5,
+    "n_unique_cities": 748,
+    "n_unique_countries_stated": 108,
+    "n_unique_correct_countries": 108,
+    "statements_per_city": {
+      "2": 748
+    },
+    "n_cities_in_both_true_and_false": 748,
+    "country_column_matches_correct_for_affirmed_rows": true,
+    "length_by_label": {
+      "n_chars": {
+        "true": {
+          "mean": 35.19,
+          "sd": 5.422,
+          "min": 27,
+          "max": 68
+        },
+        "false": {
+          "mean": 35.356,
+          "sd": 4.993,
+          "min": 27,
+          "max": 71
+        },
+        "welch_t": -0.615,
+        "p_value": 0.5386
+      },
+      "n_words": {
+        "true": {
+          "mean": 7.364,
+          "sd": 0.842,
+          "min": 7,
+          "max": 12
+        },
+        "false": {
+          "mean": 7.386,
+          "sd": 0.804,
+          "min": 7,
+          "max": 14
+        },
+        "welch_t": -0.534,
+        "p_value": 0.5935
+      }
+    },
+    "country_vs_label_chi2": {
+      "chi2": 66.51,
+      "dof": 107,
+      "p_value": 0.9993
+    },
+    "top_correct_countries": {
+      "China": 192,
+      "India": 85,
+      "Russia": 35,
+      "Brazil": 34,
+      "Mexico": 23,
+      "Japan": 21,
+      "Indonesia": 21,
+      "Turkey": 19,
+      "Nigeria": 18,
+      "South Korea": 18
+    },
+    "examples_true": [
+      "The city of Krasnodar is in Russia.",
+      "The city of Lodz is in Poland.",
+      "The city of Maracay is in Venezuela."
+    ],
+    "examples_false": [
+      "The city of Krasnodar is in South Africa.",
+      "The city of Lodz is in the Dominican Republic.",
+      "The city of Maracay is in China."
+    ]
+  },
+  "neg_cities": {
+    "file": "data/raw/geometry-of-truth/datasets/neg_cities.csv",
+    "format": "CSV, comma-separated, header row",
+    "columns": {
+      "statement": "str",
+      "label": "int64",
+      "city": "str",
+      "country": "str",
+      "correct_country": "str"
+    },
+    "n_rows": 1496,
+    "n_missing": 0,
+    "n_duplicate_statements": 0,
+    "label_counts": {
+      "0": 748,
+      "1": 748
+    },
+    "label_prop_true": 0.5,
+    "n_unique_cities": 748,
+    "n_unique_countries_stated": 108,
+    "n_unique_correct_countries": 108,
+    "statements_per_city": {
+      "2": 748
+    },
+    "n_cities_in_both_true_and_false": 748,
+    "country_column_matches_correct_for_affirmed_rows": true,
+    "length_by_label": {
+      "n_chars": {
+        "true": {
+          "mean": 39.356,
+          "sd": 4.993,
+          "min": 31,
+          "max": 75
+        },
+        "false": {
+          "mean": 39.19,
+          "sd": 5.422,
+          "min": 31,
+          "max": 72
+        },
+        "welch_t": 0.615,
+        "p_value": 0.5386
+      },
+      "n_words": {
+        "true": {
+          "mean": 8.386,
+          "sd": 0.804,
+          "min": 8,
+          "max": 15
+        },
+        "false": {
+          "mean": 8.364,
+          "sd": 0.842,
+          "min": 8,
+          "max": 13
+        },
+        "welch_t": 0.534,
+        "p_value": 0.5935
+      }
+    },
+    "country_vs_label_chi2": {
+      "chi2": 66.51,
+      "dof": 107,
+      "p_value": 0.9993
+    },
+    "top_correct_countries": {
+      "China": 192,
+      "India": 85,
+      "Russia": 35,
+      "Brazil": 34,
+      "Mexico": 23,
+      "Japan": 21,
+      "Indonesia": 21,
+      "Turkey": 19,
+      "Nigeria": 18,
+      "South Korea": 18
+    },
+    "examples_true": [
+      "The city of Krasnodar is not in South Africa.",
+      "The city of Lodz is not in the Dominican Republic.",
+      "The city of Maracay is not in China."
+    ],
+    "examples_false": [
+      "The city of Krasnodar is not in Russia.",
+      "The city of Lodz is not in Poland.",
+      "The city of Maracay is not in Venezuela."
+    ]
+  },
+  "cities_vs_neg_cities": {
+    "same_city_set": true,
+    "n_shared_cities": 748,
+    "n_rows_matching_on_city_and_country": 1496,
+    "labels_exactly_flipped": true,
+    "neg_statement_equals_aff_with_not": true
+  }
+}
