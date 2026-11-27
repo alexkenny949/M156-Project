@@ -1,0 +1,37 @@
+section,dataset,method,metric,value,ci_low,ci_high,notes
+EDA,cities,PCA,PC1_abs_corr_with_label,0.8445,,,PCA fit on cities training split
+EDA,cities,PCA,PC1_eta2_region,0.0174,,,share of PC variance explained by region
+EDA,cities,PCA,PC1_explained_var,0.0768,,,
+EDA,cities,PCA,PC2_abs_corr_with_label,0.4054,,,PCA fit on cities training split
+EDA,cities,PCA,PC2_eta2_region,0.0616,,,share of PC variance explained by region
+EDA,cities,PCA,PC2_explained_var,0.0672,,,
+EDA,cities,PCA,PC3_abs_corr_with_label,0.1895,,,PCA fit on cities training split
+EDA,cities,PCA,PC3_eta2_region,0.1173,,,share of PC variance explained by region
+EDA,cities,PCA,PC3_explained_var,0.0454,,,
+EDA,cities,PCA,PC4_abs_corr_with_label,0.0861,,,PCA fit on cities training split
+EDA,cities,PCA,PC4_eta2_region,0.2203,,,share of PC variance explained by region
+EDA,cities,PCA,PC4_explained_var,0.0353,,,
+EDA,cities,PCA,PC5_abs_corr_with_label,0.0682,,,PCA fit on cities training split
+EDA,cities,PCA,PC5_eta2_region,0.2036,,,share of PC variance explained by region
+EDA,cities,PCA,PC5_explained_var,0.0292,,,
+EDA,cities,PCA,PC6_abs_corr_with_label,0.0167,,,PCA fit on cities training split
+EDA,cities,PCA,PC6_eta2_region,0.1146,,,share of PC variance explained by region
+EDA,cities,PCA,PC6_explained_var,0.0263,,,
+EDA,cities,PCA,PC7_abs_corr_with_label,0.0007,,,PCA fit on cities training split
+EDA,cities,PCA,PC7_eta2_region,0.1258,,,share of PC variance explained by region
+EDA,cities,PCA,PC7_explained_var,0.0249,,,
+EDA,cities,PCA,PC8_abs_corr_with_label,0.1108,,,PCA fit on cities training split
+EDA,cities,PCA,PC8_eta2_region,0.1427,,,share of PC variance explained by region
+EDA,cities,PCA,PC8_explained_var,0.0225,,,
+EDA,cities,PCA,PC9_abs_corr_with_label,0.0771,,,PCA fit on cities training split
+EDA,cities,PCA,PC9_eta2_region,0.0332,,,share of PC variance explained by region
+EDA,cities,PCA,PC9_explained_var,0.0196,,,
+EDA,cities,PCA,PC10_abs_corr_with_label,0.0605,,,PCA fit on cities training split
+EDA,cities,PCA,PC10_eta2_region,0.0062,,,share of PC variance explained by region
+EDA,cities,PCA,PC10_explained_var,0.0178,,,
+EDA,cities,PCA,cum_explained_var_2PCs,0.144,,,
+EDA,cities,PCA,cum_explained_var_10PCs,0.3649,,,
+EDA,cities,PCA,cum_explained_var_20PCs,0.4957,,,
+EDA,cities,PCA,cum_explained_var_50PCs,0.6896,,,
+EDA,cities,cosine,cosine_twin_median,0.7098,0.6114,0.7977,ci columns = 2.5/97.5 percentiles of the distribution
+EDA,cities,cosine,cosine_random_median,0.4766,0.3624,0.7127,ci columns = 2.5/97.5 percentiles of the distribution

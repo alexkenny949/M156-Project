@@ -44,8 +44,18 @@ Suggested title: "Do LLM Embeddings Encode Truth? Classifying True and False Sta
 |---|---|---|---|
 | cities | "The city of [city] is in [country]." | 1496 | Main train/test set |
 | neg_cities | Negated cities statements ("not") | 1496 | Transfer test |
-| sp_en_trans | Spanish-English translation statements | VERIFY | Optional cross-topic test |
-| larger_than / smaller_than | Number comparisons | VERIFY | Optional cross-topic test |
+
+sp_en_trans and larger_than / smaller_than are out of scope.
+
+**Underlying city data:** GeoNames (2023), "All cities with a population > 1000" export. Paper, Appendix H: "We formed these statements from the template 'The city of [city] is in [country]' using a list of world cities from Geonames (2023). We filtered for cities with populations >500,000, which did not share their name with any other listed city, which were located in a curated list of widely-recognized countries, and which were not city-states." False statements: "sampling a false country with probability equal to the country's frequency among the true datapoints." Cite GeoNames alongside Marks & Tegmark on the slides. The city-country facts are real records; only the sentence wording is templated.
+
+**Data-check facts (verified, step 2; see results/data_check.json):**
+- cities: 1496 rows, 748 true / 748 false; 748 unique cities; 108 countries.
+- Every city appears in exactly two statements, one true and one false (same city, different country). Hence all splits are grouped by city.
+- No length confound: mean 35.2 vs 35.4 characters, true vs false (Welch p = 0.54). Stated country does not predict label (chi-square p = 0.999).
+- Correct country is skewed: China 192 and India 85 of the 748 cities.
+- neg_cities mirrors cities 1:1: same city-country pairs, "is in" replaced by "is not in", labels flipped.
+- Embeddings: 4096-dim, returned L2-normalized (step 3; results/embedding_check.json).
 
 **Variables:** statement text (input), binary label true/false (target). After embedding: 4096 numeric features per statement.
 
@@ -87,13 +97,15 @@ Baselines: majority class (~50%). Optional: a Token Factory chat model answering
 
 ## 5. Evaluation (criterion 3)
 
-1. **Split:** hold out a stratified 20% test set (grouped by city if cities repeat). Touch it once, at the end.
+1. **Split:** hold out a 20% test set grouped by city (both statements of a city go to the same side; this keeps labels balanced at 50/50). Saved to data/split.csv. Touch it once, at the end. All CV folds are also grouped by city.
 2. **Leakage rules:** standardization and PCA are fit inside each CV fold only (sklearn Pipeline), never on the full data. Nothing is fit on the test set.
-3. **Tuning:** 5-fold stratified CV on the training set, selection metric = accuracy, using the grids in section 4. Identical folds for every method (fixed seed).
+3. **Tuning:** 5-fold grouped (by city) CV on the training set, selection metric = accuracy, using the grids in section 4. Identical folds for every method (fixed seed).
 4. **Fair comparison:** same splits, same features, each method tuned over its stated grid; report the grid sizes so tuning effort is visible.
 5. **Final metrics on test set:** accuracy, ROC AUC, confusion matrix; CV mean +/- sd alongside.
 6. **Uncertainty:** bootstrap 95% confidence intervals for test accuracy (resample test set 1000 times, Lecture 5.3), plus a paired comparison of LR vs RF (bootstrap the accuracy difference, or McNemar's test). With ~300 test statements, differences of a few points may be noise; state whether the difference is distinguishable.
-7. **Transfer:** train the tuned models on all of cities, test on neg_cities (and reverse). Compare against within-dataset accuracy.
+7. **Transfer:** two versions, both reported, compared against within-dataset accuracy:
+   - (a) city-disjoint: train on the training-split cities of cities, test on the test-split cities of neg_cities, and the reverse (train neg_cities train split, test cities test split).
+   - (b) all-cities: train on all of cities, test on all of neg_cities, and the reverse. Same cities on both sides, so this tests the negation shift only.
 8. **Unsupervised:** k-means ARI and cluster accuracy on the training set; PCA explained-variance plot.
 9. Fix random seeds; log every number to one results table.
 

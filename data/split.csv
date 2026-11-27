@@ -1,0 +1,749 @@
+city,split
+Krasnodar,train
+Lodz,train
+Maracay,train
+Baku,train
+Baoji,test
+Addis Ababa,train
+Abidjan,test
+Yongzhou,train
+Nanchong,train
+Lu'an,train
+Jiaxing,train
+Huaihua,train
+Anqing,train
+Yingkou,train
+Panshan,test
+Guatemala City,train
+Bauchi,train
+Tokyo,train
+Mombasa,train
+Ulsan,train
+Warangal,train
+Tiruchirappalli,train
+Nowrangapur,test
+Sambhaji Nagar,test
+Ajmer,train
+Rohini,train
+Serang,test
+Niigata,train
+Marrakesh,train
+Makati City,train
+Tirunelveli,test
+Thane,test
+Solapur,train
+Najafgarh,train
+Borivli,train
+Zhabei,train
+Liaocheng,test
+Jiaozhou,train
+Guilin,train
+Chaozhou,train
+Panzhihua,test
+Bucaramanga,train
+Niamey,train
+Sokoto,train
+Abuja,train
+South Tangerang,train
+Odesa,train
+Fort Worth,test
+Boumerdes,test
+Asmara,test
+Santiago de Queretaro,train
+Perm,test
+Jeddah,test
+Konya,test
+Macapa,train
+Belo Horizonte,test
+Poznan,test
+Linyi,train
+Hohhot,train
+Malacca,train
+Busan,train
+Seongnam-si,train
+Matsuyama,train
+Suwon,train
+Incheon,train
+Hwaseong-si,train
+Changwon,train
+Bamako,train
+Acapulco de Juarez,train
+Mosul,train
+Basrah,train
+Qom,test
+Torreon,train
+Beira,test
+Naucalpan de Juarez,train
+Dehra Dun,train
+Bhubaneswar,train
+Ahvaz,test
+Kumasi,train
+Palembang,train
+Novokuznetsk,train
+Izmir,test
+Lahore,train
+Zhenjiang,train
+Zhaotong,train
+Weifang,train
+Tianjin,train
+Shaoxing,test
+Hangzhou,train
+Mudanjiang,train
+Anshan,train
+Porto Velho,train
+N'Djamena,train
+Kayseri,train
+Marseille,train
+Lyon,test
+Suez,train
+Giza,test
+Naberezhnyye Chelny,train
+Mukalla,train
+Harare,train
+Sevastopol,train
+Lipetsk,test
+Istanbul,train
+Callao,train
+Cebu City,train
+Tashkent,test
+Maturin,train
+Hanoi,train
+Xuzhou,train
+Cucuta,train
+Santo Domingo Oeste,train
+Tangshan,train
+Neijiang,train
+Linfen,train
+Yiwu,train
+Qiqihar,train
+Baotou,train
+Aparecida de Goiania,train
+Kinshasa,train
+Ciudad Nezahualcoyotl,train
+Mexicali,train
+Ciudad Juarez,train
+Kampung Baru Subang,train
+Subang Jaya,train
+Maputo,train
+Kumamoto,train
+Daegu,train
+Vilnius,train
+Ranchi,train
+Jalandhar,train
+Bhayandar,train
+Bareilly,train
+Santo Domingo Este,train
+Al Fayyum,train
+Rizhao,train
+"Mianzhu, Deyang, Sichuan",train
+Jabalpur,test
+Bilimora,train
+Accra,train
+Bogor,train
+Nyala,train
+Eskisehir,train
+Antalya,test
+Dnipro,train
+Khabarovsk,train
+Irkutsk,test
+Libreville,train
+Santiago de los Caballeros,train
+Algiers,train
+Nashik,test
+Karol Bagh,train
+Orumiyeh,test
+Zahedan,train
+Xuchang,train
+Changde,train
+Shaoguan,train
+Jilin,train
+Manaus,train
+Jaboatao dos Guararapes,train
+Kakamega,train
+Agadir,train
+Ulan Bator,train
+Muscat,train
+Paranaque City,train
+Rahim Yar Khan,train
+Balikpapan,train
+Guarulhos,train
+Volgograd,train
+Ulyanovsk,train
+Kota Bharu,test
+Sarajevo,test
+Maceio,train
+Joao Pessoa,train
+Shangqiu,train
+Zhangye,train
+Xuanzhou,train
+Wuhan,train
+Nanchang,train
+Luancheng,train
+Liuzhou,train
+Guangyuan,train
+Bijie,train
+Zhoushan,test
+Hegang,test
+E'zhou,train
+Campos dos Goytacazes,test
+Bucharest,train
+Ansan-si,train
+Casablanca,train
+Coyoacan,train
+Oyo,test
+Pasig City,train
+Kano,train
+Bahawalpur,test
+New Kingston,test
+Pyongyang,train
+Shymkent,train
+Tlalpan,train
+Kemerovo,test
+Zaporizhzhya,train
+Iztapalapa,train
+Aguascalientes,train
+Kuala Lumpur,train
+Warri,train
+Peshawar,train
+Kagoshima,train
+Hamamatsu,train
+Cheongju-si,train
+Ghaziabad,test
+Cochin,train
+Ahmedabad,train
+Sulaymaniyah,train
+Hamadan,train
+Omsk,train
+Ta'if,train
+Stockholm,train
+Siliguri,train
+Baghdad,train
+Al Basrah al Qadimah,train
+Krakow,train
+Tolyatti,train
+Bandar Lampung,train
+Tucson,test
+Can Tho,train
+Bouake,train
+Abobo,train
+Shihezi,train
+Yunfu,train
+Xiangtan,train
+Qionghai,train
+Chuzhou,train
+Taiz,train
+Tembisa,train
+Puente Alto,train
+Zhumadian,train
+Zhengzhou,train
+Ya'an,train
+Xianyang,train
+Weihai,train
+Pingdingshan,train
+Bengbu,train
+Zhangjiakou,train
+Mississauga,train
+Yerevan,train
+Albuquerque,train
+New South Memphis,train
+Calgary,train
+Kisangani,train
+Bobo-Dioulasso,train
+Sao Jose dos Campos,train
+Florianopolis,train
+Cuiaba,train
+Chattogram,train
+Nanjing,train
+Kaifeng,train
+Heze,train
+Sendai,test
+Jeonju,train
+Almaty,train
+Pimpri,test
+Navi Mumbai,train
+Novosibirsk,train
+Goeteborg,train
+Bursa,test
+Dar es Salaam,test
+Mbuji-Mayi,test
+Goiania,train
+Yaroslavl,train
+Kigali,train
+Diyarbakir,train
+Tyumen,train
+Orenburg,train
+Osaka,test
+Sapporo,train
+Kimhae,train
+Cheonan,train
+San Luis Potosi,train
+Culiacan,train
+Kaduna,train
+General Santos,train
+Ebute Ikorodu,train
+Benin City,train
+Kanpur,train
+Indore,train
+Zunyi,train
+Zhanjiang,train
+Wenzhou,test
+Luohe,train
+Kunming,test
+Cixi,train
+Hanzhong,train
+Guangzhou,train
+Munich,train
+Pekanbaru,train
+Malang,train
+Douala,train
+Kashgar,train
+Zibo,train
+Tianshui,train
+Laibin,train
+Deyang,train
+Teresina,test
+Leipzig,train
+Duesseldorf,train
+Zagreb,train
+Hannover,test
+Penza,test
+Matola,train
+Enugu,test
+Shizuoka,test
+Himeji,train
+Hamhung,train
+Seoul,train
+Meerut,test
+Hubli,test
+Dubai,train
+Astrakhan,test
+Aleppo,train
+Ar Raqqah,train
+Saint Petersburg,train
+Johannesburg,train
+Wanzhou,train
+Anyang,test
+Qinhuangdao,test
+Meizhou,train
+Yangjiang,train
+Beijing,test
+Shah Alam,train
+Vadodara,train
+Sangli,test
+Guwahati,train
+Prayagraj,test
+Aligarh,test
+Kermanshah,train
+Semarang,test
+Khulna,train
+Korla,train
+Zaozhuang,test
+Xiamen,train
+Shenzhen,train
+Maoming,test
+Anshun,train
+Siping,test
+Shuangyashan,train
+Jiamusi,train
+Minsk,train
+Lubumbashi,train
+San Miguel de Tucuman,train
+Cotonou,test
+Comilla,train
+Sao Bernardo do Campo,train
+Feira de Santana,train
+Porto Alegre,train
+Juiz de Fora,train
+Nagoya,test
+Al Ahmadi,train
+Beirut,train
+Lilongwe,test
+Ecatepec de Morelos,train
+Cancun,train
+Isfahan,train
+Conakry,train
+Petaling Jaya,train
+Zaria,train
+Cimahi,train
+Arequipa,train
+Multan,train
+Bahcelievler,train
+Saratov,train
+Kharkiv,test
+Malatya,test
+Lviv,test
+Kyiv,train
+Kitakyushu,train
+Onitsha,train
+Anyang-si,train
+Kobe,train
+Chiclayo,train
+Phnom Penh,train
+Nouakchott,train
+Vijayawada,train
+Theni,train
+Narela,train
+Quetta,train
+Chennai,train
+Changshu,train
+Tehran,test
+Bayannur,train
+Barranquilla,train
+Budapest,train
+Pontianak,train
+Recife,test
+Contagem,train
+Port Said,train
+Asyut,test
+Ziyang,train
+Yinchuan,test
+Zhangjiagang,train
+Shanghai,train
+Jieyang,test
+Longyan,test
+Dandong,test
+Frankfurt am Main,train
+Lusaka,test
+Aden,test
+Jaboatao,train
+Aracaju,train
+Londrina,test
+Zigong,train
+Kunshan,test
+Yichang,test
+Sanming,train
+Guang'an,train
+Ma'anshan,train
+Dongying,train
+Fushun,train
+Rajshahi,train
+Rangpur,test
+Dortmund,train
+Detroit,train
+Latakia,train
+Ashgabat,test
+Maracaibo,train
+Erode,train
+Mumbai,train
+Nasiriyah,test
+Kahriz,test
+Surakarta,train
+Banjarmasin,train
+Vladivostok,test
+Adana,test
+Voronezh,train
+Namangan,test
+Ordos,train
+Moradabad,train
+Bengaluru,train
+Shivaji Nagar,test
+Turin,train
+Okayama,train
+Daejeon,train
+Battagram,train
+Yaounde,train
+Zhangzhou,train
+Yangquan,train
+Sanya,test
+Foshan,train
+Sharjah,train
+Al Ain City,test
+Kalininskiy,train
+Mersin,train
+Guayaquil,train
+Tegucigalpa,test
+Koeln,train
+Nuernberg,train
+Zarqa,train
+Riga,train
+Nanded,train
+Gwalior,train
+Dombivli,test
+Kallakurichi,test
+Bekasi,train
+Johor Bahru,train
+Santa Maria Chimalhuacan,test
+Urumqi,train
+Qingdao,train
+Sofia,train
+Nova Iguacu,train
+Abeokuta,train
+Amman,train
+Hachioji,train
+Fukuoka,train
+Goyang-si,train
+Meknes,train
+Antananarivo,train
+Kalyan,test
+Jaipur,train
+Guntur,train
+Bhilai,train
+Bhavnagar,test
+Amravati,train
+Shiraz,train
+Lome,train
+Erzurum,test
+Seattle,train
+Barquisimeto,test
+Kryvyy Rih,train
+Krasnoyarsk,test
+Quzhou,train
+Pingliang,test
+Puning,test
+Huzhou,train
+Chizhou,train
+Chengdu,train
+Cangzhou,train
+Samarinda,train
+Helsinki,train
+Khabarovsk Vtoroy,train
+Wroclaw,train
+Oslo,test
+Caloocan City,train
+Ryazan',test
+Ciudad Guayana,train
+Ho Chi Minh City,test
+Al Hudaydah,train
+Soweto,train
+Benoni,train
+Wuzhou,train
+Wanxian,train
+Qinzhou,train
+Wuwei,train
+Hefei,test
+Handan,train
+Jiangyin,train
+Brazzaville,train
+Sorocaba,train
+Aktobe,train
+Chisinau,test
+Tiruppur,test
+Kozhikode,train
+Asansol,train
+Suizhou,train
+Jingmen,train
+Huangshi,train
+Huaibei,train
+Hebi,train
+Benxi,train
+Fortaleza,train
+Antwerpen,train
+Pikine,train
+Dakar,train
+Faisalabad,train
+Kyoto,test
+Port Harcourt,train
+Makhachkala,train
+Thiruvananthapuram,train
+Madurai,train
+Abu Ghurayb,train
+Karaj,train
+Kampala,train
+Chicago,train
+Milwaukee,train
+Bloemfontein,train
+Uberlandia,train
+Curitiba,train
+Rio de Janeiro,train
+Ribeirao Preto,train
+The Bronx,train
+Samarkand,test
+Da Nang,train
+Tomsk,test
+Najran,train
+Bangkok,train
+Oklahoma City,test
+Izhevsk,train
+Madinat an Nasr,train
+Yibin,train
+Sanmenxia,train
+Rui'an,train
+Ningbo,train
+Jiujiang,train
+Jiaozuo,test
+Jiangmen,train
+Huizhou,train
+Harbin,train
+Herat,train
+Kleinzschocher,train
+Davao,train
+Sargodha,train
+Islamabad,train
+Zapopan,train
+Visakhapatnam,train
+Rourkela,train
+Dhanbad,train
+Bokaro,train
+Tabriz,test
+Tlaquepaque,train
+Victoria de Durango,train
+Kota Kinabalu,test
+Nairobi,test
+Taguig,train
+Rajkot,train
+Pune,train
+Ludhiana,train
+Jamshedpur,train
+Bhiwandi,train
+Erbil,train
+Chelyabinsk,train
+Uskudar,train
+Bagcilar,train
+Quezon City,test
+Mexico City,train
+Leon de los Aldama,train
+Fes,test
+Surat,train
+Barnaul,train
+Buraydah,train
+Bikaner,train
+Mogadishu,train
+Homs,train
+Port-au-Prince,train
+Thuan An,train
+Sanaa,test
+Pretoria,test
+Pietermaritzburg,train
+Abu Dhabi,train
+Sao Paulo,train
+Lianyungang,train
+Xiaogan,train
+Taicang,train
+Guiyang,test
+Ganzhou,test
+Shangyu,train
+Jambi City,train
+Indianapolis,train
+New York City,train
+Bulawayo,train
+Santiago de Cuba,train
+Quito,train
+Shubra al Khaymah,train
+Al Mahallah al Kubra,train
+Suining,test
+Guankou,train
+Langfang,train
+Jinan,test
+Guigang,train
+Dalian,train
+Chongqing,train
+Homyel',train
+Winnipeg,train
+Klang,train
+Irbid,train
+Bishkek,train
+Muzaffarabad,train
+Kotli,train
+Nagpur,train
+Kolhapur,train
+Cuttack,train
+Makassar,train
+Yekaterinburg,train
+Dammam,train
+Dushanbe,train
+Gaziantep,train
+Asuncion,train
+Tebessa,train
+Zhuzhou,train
+Xining,train
+Tanggu,train
+Shantou,train
+Shangluo,train
+Putian,test
+Luzhou,train
+Lanzhou,train
+Chenzhou,train
+Baise,train
+Shenyang,test
+Daqing,train
+Brasilia,train
+Kandahar,train
+Gold Coast,train
+Ouagadougou,train
+Duque de Caxias,test
+Hiroshima,train
+Saitama,train
+Mandalay,train
+Nampula,test
+Mysore,train
+Coimbatore,train
+Chandigarh,train
+Amritsar,test
+Arak,train
+Ilorin,test
+Omdurman,train
+Khartoum,test
+Gujranwala,test
+Nizhniy Novgorod,train
+Zhaoqing,train
+Xianning,train
+Suqian,train
+Tonghua,train
+Hezhou,train
+Grosszschocher,train
+San Pedro Sula,train
+Queens,train
+Caracas,train
+Bien Hoa,train
+Durban,train
+Kawaguchi,train
+Bucheon-si,train
+Tangier,train
+Nay Pyi Taw,train
+Ulhasnagar,test
+Faridabad,train
+Kolkata,test
+Karbala,train
+Jakarta,train
+Denpasar,train
+Batam,test
+Liupanshui,train
+Shangrao,train
+Xingtai,test
+Qujing,test
+Nanning,train
+Huainan,train
+Binzhou,train
+Fuxin,test
+Quebec,train
+Mazar-e Sharif,train
+Mar del Plata,train
+Salta,test
+Bujumbura,train
+Ankara,train
+Esenler,train
+Cankaya,test
+Ufa,train
+Rawalpindi,train
+Karachi,train
+Tijuana,train
+Jos,train
+Ibadan,train
+Managua,train
+Ha'il,train
+Haiphong,train
+Cape Town,train
+Ipoh,train
+Kuantan,train
+Maiduguri,train
+Yangon,train
+Kathmandu,train
+Las Pinas,train
+Reynosa,test
+Rostov-na-Donu,train
+Ibague,test
+Copenhagen,train
+Xinyang,train
+Weinan,train
+Wanning,train
+Shijiazhuang,train
+Laiwu,train
+Hengyang,test
+Changchun,train
+Varanasi,train
+Puducherry,train
+Bhopal,train
+Kanayannur,train
+Kirkuk,train
+Al Mawsil al Jadidah,train
+Tangerang,test

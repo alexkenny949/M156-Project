@@ -1,0 +1,2 @@
+statement,label,pred,p_true,city,country,correct_country,region
+The city of Tangerang is in Indonesia.,1,0,0.05753472155697786,Tangerang,Indonesia,Indonesia,Asia

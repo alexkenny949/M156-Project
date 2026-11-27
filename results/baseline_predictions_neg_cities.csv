@@ -1,0 +1,301 @@
+statement,label,city,correct_country,region,raw_answer,pred,correct
+The city of Baoji is not in China.,0,Baoji,China,Asia,False,0,True
+The city of Baoji is not in Guatemala.,1,Baoji,China,Asia,True,1,True
+The city of Abidjan is not in Côte d'Ivoire.,0,Abidjan,Côte d'Ivoire,Africa,False,0,True
+The city of Abidjan is not in China.,1,Abidjan,Côte d'Ivoire,Africa,True,1,True
+The city of Panshan is not in China.,0,Panshan,China,Asia,False,0,True
+The city of Panshan is not in Japan.,1,Panshan,China,Asia,True,1,True
+The city of Nowrangapur is not in India.,0,Nowrangapur,India,Asia,False,0,True
+The city of Nowrangapur is not in Vietnam.,1,Nowrangapur,India,Asia,True,1,True
+The city of Sambhaji Nagar is not in India.,0,Sambhaji Nagar,India,Asia,False,0,True
+The city of Sambhaji Nagar is not in China.,1,Sambhaji Nagar,India,Asia,True,1,True
+The city of Serang is not in Indonesia.,0,Serang,Indonesia,Asia,False,0,True
+The city of Serang is not in Poland.,1,Serang,Indonesia,Asia,True,1,True
+The city of Tirunelveli is not in India.,0,Tirunelveli,India,Asia,False,0,True
+The city of Tirunelveli is not in China.,1,Tirunelveli,India,Asia,True,1,True
+The city of Thane is not in India.,0,Thane,India,Asia,False,0,True
+The city of Thane is not in China.,1,Thane,India,Asia,True,1,True
+The city of Liaocheng is not in China.,0,Liaocheng,China,Asia,False,0,True
+The city of Liaocheng is not in South Korea.,1,Liaocheng,China,Asia,True,1,True
+The city of Panzhihua is not in China.,0,Panzhihua,China,Asia,False,0,True
+The city of Panzhihua is not in Iran.,1,Panzhihua,China,Asia,True,1,True
+The city of Fort Worth is not in the United States.,0,Fort Worth,the United States,Americas,False,0,True
+The city of Fort Worth is not in Russia.,1,Fort Worth,the United States,Americas,True,1,True
+The city of Boumerdes is not in Algeria.,0,Boumerdes,Algeria,Africa,False,0,True
+The city of Boumerdes is not in Iran.,1,Boumerdes,Algeria,Africa,True,1,True
+The city of Asmara is not in Eritrea.,0,Asmara,Eritrea,Africa,False,0,True
+The city of Asmara is not in Indonesia.,1,Asmara,Eritrea,Africa,True,1,True
+The city of Perm is not in Russia.,0,Perm,Russia,Europe,False,0,True
+The city of Perm is not in China.,1,Perm,Russia,Europe,True,1,True
+The city of Jeddah is not in Saudi Arabia.,0,Jeddah,Saudi Arabia,Asia,False,0,True
+The city of Jeddah is not in Myanmar.,1,Jeddah,Saudi Arabia,Asia,True,1,True
+The city of Konya is not in Turkey.,0,Konya,Turkey,Asia,False,0,True
+The city of Konya is not in Russia.,1,Konya,Turkey,Asia,True,1,True
+The city of Belo Horizonte is not in Brazil.,0,Belo Horizonte,Brazil,Americas,False,0,True
+The city of Belo Horizonte is not in North Korea.,1,Belo Horizonte,Brazil,Americas,True,1,True
+The city of Poznan is not in Poland.,0,Poznan,Poland,Europe,False,0,True
+The city of Poznan is not in Mexico.,1,Poznan,Poland,Europe,True,1,True
+The city of Qom is not in Iran.,0,Qom,Iran,Asia,False,0,True
+The city of Qom is not in Vietnam.,1,Qom,Iran,Asia,True,1,True
+The city of Beira is not in Mozambique.,0,Beira,Mozambique,Africa,False,0,True
+The city of Beira is not in India.,1,Beira,Mozambique,Africa,True,1,True
+The city of Ahvaz is not in Iran.,0,Ahvaz,Iran,Asia,False,0,True
+The city of Ahvaz is not in China.,1,Ahvaz,Iran,Asia,True,1,True
+The city of Izmir is not in Turkey.,0,Izmir,Turkey,Asia,False,0,True
+The city of Izmir is not in Iran.,1,Izmir,Turkey,Asia,True,1,True
+The city of Shaoxing is not in China.,0,Shaoxing,China,Asia,False,0,True
+The city of Shaoxing is not in the Philippines.,1,Shaoxing,China,Asia,True,1,True
+The city of Lyon is not in France.,0,Lyon,France,Europe,False,0,True
+The city of Lyon is not in Canada.,1,Lyon,France,Europe,True,1,True
+The city of Giza is not in Egypt.,0,Giza,Egypt,Africa,False,0,True
+The city of Giza is not in India.,1,Giza,Egypt,Africa,True,1,True
+The city of Lipetsk is not in Russia.,0,Lipetsk,Russia,Europe,False,0,True
+The city of Lipetsk is not in China.,1,Lipetsk,Russia,Europe,True,1,True
+The city of Tashkent is not in Uzbekistan.,0,Tashkent,Uzbekistan,Asia,False,0,True
+The city of Tashkent is not in Mexico.,1,Tashkent,Uzbekistan,Asia,True,1,True
+The city of Jabalpur is not in India.,0,Jabalpur,India,Asia,False,0,True
+The city of Jabalpur is not in Ukraine.,1,Jabalpur,India,Asia,True,1,True
+The city of Antalya is not in Turkey.,0,Antalya,Turkey,Asia,False,0,True
+The city of Antalya is not in Germany.,1,Antalya,Turkey,Asia,True,1,True
+The city of Irkutsk is not in Russia.,0,Irkutsk,Russia,Europe,False,0,True
+The city of Irkutsk is not in Morocco.,1,Irkutsk,Russia,Europe,True,1,True
+The city of Nashik is not in India.,0,Nashik,India,Asia,False,0,True
+The city of Nashik is not in China.,1,Nashik,India,Asia,True,1,True
+The city of Orumiyeh is not in Iran.,0,Orumiyeh,Iran,Asia,False,0,True
+The city of Orumiyeh is not in Saudi Arabia.,1,Orumiyeh,Iran,Asia,True,1,True
+The city of Kota Bharu is not in Malaysia.,0,Kota Bharu,Malaysia,Asia,False,0,True
+The city of Kota Bharu is not in Norway.,1,Kota Bharu,Malaysia,Asia,True,1,True
+The city of Sarajevo is not in Bosnia and Herzegovina.,0,Sarajevo,Bosnia and Herzegovina,Europe,False,0,True
+The city of Sarajevo is not in South Africa.,1,Sarajevo,Bosnia and Herzegovina,Europe,True,1,True
+The city of Zhoushan is not in China.,0,Zhoushan,China,Asia,False,0,True
+The city of Zhoushan is not in the Philippines.,1,Zhoushan,China,Asia,True,1,True
+The city of Hegang is not in China.,0,Hegang,China,Asia,False,0,True
+The city of Hegang is not in Russia.,1,Hegang,China,Asia,True,1,True
+The city of Campos dos Goytacazes is not in Brazil.,0,Campos dos Goytacazes,Brazil,Americas,False,0,True
+The city of Campos dos Goytacazes is not in Vietnam.,1,Campos dos Goytacazes,Brazil,Americas,True,1,True
+The city of Oyo is not in Nigeria.,0,Oyo,Nigeria,Africa,False,0,True
+The city of Oyo is not in China.,1,Oyo,Nigeria,Africa,True,1,True
+The city of Bahawalpur is not in Pakistan.,0,Bahawalpur,Pakistan,Asia,False,0,True
+The city of Bahawalpur is not in China.,1,Bahawalpur,Pakistan,Asia,True,1,True
+The city of New Kingston is not in Jamaica.,0,New Kingston,Jamaica,Americas,False,0,True
+The city of New Kingston is not in South Africa.,1,New Kingston,Jamaica,Americas,True,1,True
+The city of Kemerovo is not in Russia.,0,Kemerovo,Russia,Europe,False,0,True
+The city of Kemerovo is not in India.,1,Kemerovo,Russia,Europe,True,1,True
+The city of Ghaziabad is not in India.,0,Ghaziabad,India,Asia,False,0,True
+The city of Ghaziabad is not in South Korea.,1,Ghaziabad,India,Asia,True,1,True
+The city of Tucson is not in the United States.,0,Tucson,the United States,Americas,False,0,True
+The city of Tucson is not in Canada.,1,Tucson,the United States,Americas,True,1,True
+The city of Sendai is not in Japan.,0,Sendai,Japan,Asia,False,0,True
+The city of Sendai is not in Brazil.,1,Sendai,Japan,Asia,True,1,True
+The city of Pimpri is not in India.,0,Pimpri,India,Asia,False,0,True
+The city of Pimpri is not in China.,1,Pimpri,India,Asia,True,1,True
+The city of Bursa is not in Turkey.,0,Bursa,Turkey,Asia,False,0,True
+The city of Bursa is not in Bosnia and Herzegovina.,1,Bursa,Turkey,Asia,True,1,True
+The city of Dar es Salaam is not in Tanzania.,0,Dar es Salaam,Tanzania,Africa,False,0,True
+The city of Dar es Salaam is not in Italy.,1,Dar es Salaam,Tanzania,Africa,True,1,True
+The city of Mbuji-Mayi is not in the Democratic Republic of the Congo.,0,Mbuji-Mayi,the Democratic Republic of the Congo,Africa,False,0,True
+The city of Mbuji-Mayi is not in Pakistan.,1,Mbuji-Mayi,the Democratic Republic of the Congo,Africa,True,1,True
+The city of Osaka is not in Japan.,0,Osaka,Japan,Asia,False,0,True
+The city of Osaka is not in India.,1,Osaka,Japan,Asia,True,1,True
+The city of Wenzhou is not in China.,0,Wenzhou,China,Asia,False,0,True
+The city of Wenzhou is not in Moldova.,1,Wenzhou,China,Asia,True,1,True
+The city of Kunming is not in China.,0,Kunming,China,Asia,False,0,True
+The city of Kunming is not in Mexico.,1,Kunming,China,Asia,True,1,True
+The city of Teresina is not in Brazil.,0,Teresina,Brazil,Americas,False,0,True
+The city of Teresina is not in Vietnam.,1,Teresina,Brazil,Americas,True,1,True
+The city of Hannover is not in Germany.,0,Hannover,Germany,Europe,False,0,True
+The city of Hannover is not in China.,1,Hannover,Germany,Europe,True,1,True
+The city of Penza is not in Russia.,0,Penza,Russia,Europe,False,0,True
+The city of Penza is not in China.,1,Penza,Russia,Europe,True,1,True
+The city of Enugu is not in Nigeria.,0,Enugu,Nigeria,Africa,False,0,True
+The city of Enugu is not in South Korea.,1,Enugu,Nigeria,Africa,True,1,True
+The city of Shizuoka is not in Japan.,0,Shizuoka,Japan,Asia,False,0,True
+The city of Shizuoka is not in China.,1,Shizuoka,Japan,Asia,True,1,True
+The city of Meerut is not in India.,0,Meerut,India,Asia,False,0,True
+The city of Meerut is not in Nigeria.,1,Meerut,India,Asia,True,1,True
+The city of Hubli is not in India.,0,Hubli,India,Asia,False,0,True
+The city of Hubli is not in Indonesia.,1,Hubli,India,Asia,True,1,True
+The city of Astrakhan is not in Russia.,0,Astrakhan,Russia,Europe,False,0,True
+The city of Astrakhan is not in India.,1,Astrakhan,Russia,Europe,True,1,True
+The city of Anyang is not in China.,0,Anyang,China,Asia,False,0,True
+The city of Anyang is not in Kuwait.,1,Anyang,China,Asia,True,1,True
+The city of Qinhuangdao is not in China.,0,Qinhuangdao,China,Asia,False,0,True
+The city of Qinhuangdao is not in Eritrea.,1,Qinhuangdao,China,Asia,True,1,True
+The city of Beijing is not in China.,0,Beijing,China,Asia,False,0,True
+The city of Beijing is not in Ghana.,1,Beijing,China,Asia,True,1,True
+The city of Sangli is not in India.,0,Sangli,India,Asia,False,0,True
+The city of Sangli is not in Japan.,1,Sangli,India,Asia,True,1,True
+The city of Prayagraj is not in India.,0,Prayagraj,India,Asia,False,0,True
+The city of Prayagraj is not in Kenya.,1,Prayagraj,India,Asia,True,1,True
+The city of Aligarh is not in India.,0,Aligarh,India,Asia,False,0,True
+The city of Aligarh is not in China.,1,Aligarh,India,Asia,True,1,True
+The city of Semarang is not in Indonesia.,0,Semarang,Indonesia,Asia,False,0,True
+The city of Semarang is not in Saudi Arabia.,1,Semarang,Indonesia,Asia,True,1,True
+The city of Zaozhuang is not in China.,0,Zaozhuang,China,Asia,False,0,True
+The city of Zaozhuang is not in Belarus.,1,Zaozhuang,China,Asia,True,1,True
+The city of Maoming is not in China.,0,Maoming,China,Asia,False,0,True
+The city of Maoming is not in Brazil.,1,Maoming,China,Asia,True,1,True
+The city of Siping is not in China.,0,Siping,China,Asia,False,0,True
+The city of Siping is not in Iraq.,1,Siping,China,Asia,True,1,True
+The city of Cotonou is not in Benin.,0,Cotonou,Benin,Africa,False,0,True
+The city of Cotonou is not in China.,1,Cotonou,Benin,Africa,True,1,True
+The city of Nagoya is not in Japan.,0,Nagoya,Japan,Asia,False,0,True
+The city of Nagoya is not in China.,1,Nagoya,Japan,Asia,True,1,True
+The city of Lilongwe is not in Malawi.,0,Lilongwe,Malawi,Africa,False,0,True
+The city of Lilongwe is not in Turkey.,1,Lilongwe,Malawi,Africa,True,1,True
+The city of Kharkiv is not in Ukraine.,0,Kharkiv,Ukraine,Europe,False,0,True
+The city of Kharkiv is not in Moldova.,1,Kharkiv,Ukraine,Europe,True,1,True
+The city of Malatya is not in Turkey.,0,Malatya,Turkey,Asia,False,0,True
+The city of Malatya is not in Russia.,1,Malatya,Turkey,Asia,True,1,True
+The city of Lviv is not in Ukraine.,0,Lviv,Ukraine,Europe,False,0,True
+The city of Lviv is not in China.,1,Lviv,Ukraine,Europe,True,1,True
+The city of Tehran is not in Iran.,0,Tehran,Iran,Asia,False,0,True
+The city of Tehran is not in Niger.,1,Tehran,Iran,Asia,True,1,True
+The city of Recife is not in Brazil.,0,Recife,Brazil,Americas,False,0,True
+The city of Recife is not in North Korea.,1,Recife,Brazil,Americas,True,1,True
+The city of Asyut is not in Egypt.,0,Asyut,Egypt,Africa,False,0,True
+The city of Asyut is not in Japan.,1,Asyut,Egypt,Africa,True,1,True
+The city of Yinchuan is not in China.,0,Yinchuan,China,Asia,False,0,True
+The city of Yinchuan is not in Bangladesh.,1,Yinchuan,China,Asia,True,1,True
+The city of Jieyang is not in China.,0,Jieyang,China,Asia,False,0,True
+The city of Jieyang is not in the Philippines.,1,Jieyang,China,Asia,True,1,True
+The city of Longyan is not in China.,0,Longyan,China,Asia,False,0,True
+The city of Longyan is not in Benin.,1,Longyan,China,Asia,True,1,True
+The city of Dandong is not in China.,0,Dandong,China,Asia,False,0,True
+The city of Dandong is not in Niger.,1,Dandong,China,Asia,True,1,True
+The city of Lusaka is not in Zambia.,0,Lusaka,Zambia,Africa,False,0,True
+The city of Lusaka is not in Poland.,1,Lusaka,Zambia,Africa,True,1,True
+The city of Aden is not in Yemen.,0,Aden,Yemen,Asia,False,0,True
+The city of Aden is not in Japan.,1,Aden,Yemen,Asia,True,1,True
+The city of Londrina is not in Brazil.,0,Londrina,Brazil,Americas,False,0,True
+The city of Londrina is not in India.,1,Londrina,Brazil,Americas,True,1,True
+The city of Kunshan is not in China.,0,Kunshan,China,Asia,False,0,True
+The city of Kunshan is not in Russia.,1,Kunshan,China,Asia,True,1,True
+The city of Yichang is not in China.,0,Yichang,China,Asia,False,0,True
+The city of Yichang is not in Japan.,1,Yichang,China,Asia,True,1,True
+The city of Rangpur is not in Bangladesh.,0,Rangpur,Bangladesh,Asia,False,0,True
+The city of Rangpur is not in Russia.,1,Rangpur,Bangladesh,Asia,True,1,True
+The city of Ashgabat is not in Turkmenistan.,0,Ashgabat,Turkmenistan,Asia,False,0,True
+The city of Ashgabat is not in Bangladesh.,1,Ashgabat,Turkmenistan,Asia,True,1,True
+The city of Nasiriyah is not in Iraq.,0,Nasiriyah,Iraq,Asia,False,0,True
+The city of Nasiriyah is not in Rwanda.,1,Nasiriyah,Iraq,Asia,True,1,True
+The city of Kahriz is not in Iran.,0,Kahriz,Iran,Asia,False,0,True
+The city of Kahriz is not in Uzbekistan.,1,Kahriz,Iran,Asia,True,1,True
+The city of Vladivostok is not in Russia.,0,Vladivostok,Russia,Europe,False,0,True
+The city of Vladivostok is not in Romania.,1,Vladivostok,Russia,Europe,True,1,True
+The city of Adana is not in Turkey.,0,Adana,Turkey,Asia,False,0,True
+The city of Adana is not in Togo.,1,Adana,Turkey,Asia,True,1,True
+The city of Namangan is not in Uzbekistan.,0,Namangan,Uzbekistan,Asia,False,0,True
+The city of Namangan is not in India.,1,Namangan,Uzbekistan,Asia,True,1,True
+The city of Shivaji Nagar is not in India.,0,Shivaji Nagar,India,Asia,False,0,True
+The city of Shivaji Nagar is not in China.,1,Shivaji Nagar,India,Asia,True,1,True
+The city of Sanya is not in China.,0,Sanya,China,Asia,False,0,True
+The city of Sanya is not in India.,1,Sanya,China,Asia,True,1,True
+The city of Al Ain City is not in the United Arab Emirates.,0,Al Ain City,the United Arab Emirates,Asia,False,0,True
+The city of Al Ain City is not in India.,1,Al Ain City,the United Arab Emirates,Asia,True,1,True
+The city of Tegucigalpa is not in Honduras.,0,Tegucigalpa,Honduras,Americas,False,0,True
+The city of Tegucigalpa is not in China.,1,Tegucigalpa,Honduras,Americas,True,1,True
+The city of Dombivli is not in India.,0,Dombivli,India,Asia,False,0,True
+The city of Dombivli is not in Mali.,1,Dombivli,India,Asia,True,1,True
+The city of Kallakurichi is not in India.,0,Kallakurichi,India,Asia,False,0,True
+The city of Kallakurichi is not in Iraq.,1,Kallakurichi,India,Asia,True,1,True
+The city of Santa Maria Chimalhuacan is not in Mexico.,0,Santa Maria Chimalhuacan,Mexico,Americas,False,0,True
+The city of Santa Maria Chimalhuacan is not in Saudi Arabia.,1,Santa Maria Chimalhuacan,Mexico,Americas,True,1,True
+The city of Kalyan is not in India.,0,Kalyan,India,Asia,False,0,True
+The city of Kalyan is not in South Korea.,1,Kalyan,India,Asia,True,1,True
+The city of Bhavnagar is not in India.,0,Bhavnagar,India,Asia,False,0,True
+The city of Bhavnagar is not in Japan.,1,Bhavnagar,India,Asia,True,1,True
+The city of Erzurum is not in Turkey.,0,Erzurum,Turkey,Asia,False,0,True
+The city of Erzurum is not in the Democratic Republic of the Congo.,1,Erzurum,Turkey,Asia,True,1,True
+The city of Barquisimeto is not in Venezuela.,0,Barquisimeto,Venezuela,Americas,False,0,True
+The city of Barquisimeto is not in Poland.,1,Barquisimeto,Venezuela,Americas,True,1,True
+The city of Krasnoyarsk is not in Russia.,0,Krasnoyarsk,Russia,Europe,False,0,True
+The city of Krasnoyarsk is not in India.,1,Krasnoyarsk,Russia,Europe,True,1,True
+The city of Pingliang is not in China.,0,Pingliang,China,Asia,False,0,True
+The city of Pingliang is not in Tanzania.,1,Pingliang,China,Asia,True,1,True
+The city of Puning is not in China.,0,Puning,China,Asia,False,0,True
+The city of Puning is not in India.,1,Puning,China,Asia,True,1,True
+The city of Oslo is not in Norway.,0,Oslo,Norway,Europe,False,0,True
+The city of Oslo is not in Venezuela.,1,Oslo,Norway,Europe,True,1,True
+The city of Ryazan' is not in Russia.,0,Ryazan',Russia,Europe,False,0,True
+The city of Ryazan' is not in South Korea.,1,Ryazan',Russia,Europe,True,1,True
+The city of Ho Chi Minh City is not in Vietnam.,0,Ho Chi Minh City,Vietnam,Asia,False,0,True
+The city of Ho Chi Minh City is not in Gabon.,1,Ho Chi Minh City,Vietnam,Asia,True,1,True
+The city of Hefei is not in China.,0,Hefei,China,Asia,False,0,True
+The city of Hefei is not in Germany.,1,Hefei,China,Asia,True,1,True
+The city of Chisinau is not in Moldova.,0,Chisinau,Moldova,Europe,False,0,True
+The city of Chisinau is not in Germany.,1,Chisinau,Moldova,Europe,True,1,True
+The city of Tiruppur is not in India.,0,Tiruppur,India,Asia,False,0,True
+The city of Tiruppur is not in Japan.,1,Tiruppur,India,Asia,True,1,True
+The city of Kyoto is not in Japan.,0,Kyoto,Japan,Asia,False,0,True
+The city of Kyoto is not in China.,1,Kyoto,Japan,Asia,True,1,True
+The city of Samarkand is not in Uzbekistan.,0,Samarkand,Uzbekistan,Asia,False,0,True
+The city of Samarkand is not in China.,1,Samarkand,Uzbekistan,Asia,True,1,True
+The city of Tomsk is not in Russia.,0,Tomsk,Russia,Europe,False,0,True
+The city of Tomsk is not in Ghana.,1,Tomsk,Russia,Europe,True,1,True
+The city of Oklahoma City is not in the United States.,0,Oklahoma City,the United States,Americas,False,0,True
+The city of Oklahoma City is not in China.,1,Oklahoma City,the United States,Americas,True,1,True
+The city of Jiaozuo is not in China.,0,Jiaozuo,China,Asia,False,0,True
+The city of Jiaozuo is not in Bangladesh.,1,Jiaozuo,China,Asia,True,1,True
+The city of Tabriz is not in Iran.,0,Tabriz,Iran,Asia,False,0,True
+The city of Tabriz is not in India.,1,Tabriz,Iran,Asia,True,1,True
+The city of Kota Kinabalu is not in Malaysia.,0,Kota Kinabalu,Malaysia,Asia,False,0,True
+The city of Kota Kinabalu is not in the United States.,1,Kota Kinabalu,Malaysia,Asia,True,1,True
+The city of Nairobi is not in Kenya.,0,Nairobi,Kenya,Africa,False,0,True
+The city of Nairobi is not in Mexico.,1,Nairobi,Kenya,Africa,True,1,True
+The city of Quezon City is not in the Philippines.,0,Quezon City,the Philippines,Asia,False,0,True
+The city of Quezon City is not in China.,1,Quezon City,the Philippines,Asia,True,1,True
+The city of Fes is not in Morocco.,0,Fes,Morocco,Africa,False,0,True
+The city of Fes is not in Mali.,1,Fes,Morocco,Africa,True,1,True
+The city of Sanaa is not in Yemen.,0,Sanaa,Yemen,Asia,False,0,True
+The city of Sanaa is not in China.,1,Sanaa,Yemen,Asia,True,1,True
+The city of Pretoria is not in South Africa.,0,Pretoria,South Africa,Africa,False,0,True
+The city of Pretoria is not in India.,1,Pretoria,South Africa,Africa,True,1,True
+The city of Guiyang is not in China.,0,Guiyang,China,Asia,False,0,True
+The city of Guiyang is not in South Korea.,1,Guiyang,China,Asia,True,1,True
+The city of Ganzhou is not in China.,0,Ganzhou,China,Asia,False,0,True
+The city of Ganzhou is not in South Korea.,1,Ganzhou,China,Asia,True,1,True
+The city of Suining is not in China.,0,Suining,China,Asia,False,0,True
+The city of Suining is not in Algeria.,1,Suining,China,Asia,True,1,True
+The city of Jinan is not in China.,0,Jinan,China,Asia,False,0,True
+The city of Jinan is not in Rwanda.,1,Jinan,China,Asia,True,1,True
+The city of Putian is not in China.,0,Putian,China,Asia,False,0,True
+The city of Putian is not in Vietnam.,1,Putian,China,Asia,True,1,True
+The city of Shenyang is not in China.,0,Shenyang,China,Asia,False,0,True
+The city of Shenyang is not in Somalia.,1,Shenyang,China,Asia,True,1,True
+The city of Duque de Caxias is not in Brazil.,0,Duque de Caxias,Brazil,Americas,False,0,True
+The city of Duque de Caxias is not in Côte d'Ivoire.,1,Duque de Caxias,Brazil,Americas,True,1,True
+The city of Nampula is not in Mozambique.,0,Nampula,Mozambique,Africa,False,0,True
+The city of Nampula is not in India.,1,Nampula,Mozambique,Africa,True,1,True
+The city of Amritsar is not in India.,0,Amritsar,India,Asia,False,0,True
+The city of Amritsar is not in Moldova.,1,Amritsar,India,Asia,True,1,True
+The city of Ilorin is not in Nigeria.,0,Ilorin,Nigeria,Africa,False,0,True
+The city of Ilorin is not in Ukraine.,1,Ilorin,Nigeria,Africa,True,1,True
+The city of Khartoum is not in Sudan.,0,Khartoum,Sudan,Africa,False,0,True
+The city of Khartoum is not in China.,1,Khartoum,Sudan,Africa,True,1,True
+The city of Gujranwala is not in Pakistan.,0,Gujranwala,Pakistan,Asia,False,0,True
+The city of Gujranwala is not in China.,1,Gujranwala,Pakistan,Asia,True,1,True
+The city of Ulhasnagar is not in India.,0,Ulhasnagar,India,Asia,False,0,True
+The city of Ulhasnagar is not in Senegal.,1,Ulhasnagar,India,Asia,True,1,True
+The city of Kolkata is not in India.,0,Kolkata,India,Asia,False,0,True
+The city of Kolkata is not in Japan.,1,Kolkata,India,Asia,True,1,True
+The city of Batam is not in Indonesia.,0,Batam,Indonesia,Asia,False,0,True
+The city of Batam is not in Turkey.,1,Batam,Indonesia,Asia,True,1,True
+The city of Xingtai is not in China.,0,Xingtai,China,Asia,False,0,True
+The city of Xingtai is not in Russia.,1,Xingtai,China,Asia,True,1,True
+The city of Qujing is not in China.,0,Qujing,China,Asia,False,0,True
+The city of Qujing is not in India.,1,Qujing,China,Asia,True,1,True
+The city of Fuxin is not in China.,0,Fuxin,China,Asia,False,0,True
+The city of Fuxin is not in Pakistan.,1,Fuxin,China,Asia,True,1,True
+The city of Salta is not in Argentina.,0,Salta,Argentina,Americas,False,0,True
+The city of Salta is not in India.,1,Salta,Argentina,Americas,True,1,True
+The city of Cankaya is not in Turkey.,0,Cankaya,Turkey,Asia,False,0,True
+The city of Cankaya is not in the United States.,1,Cankaya,Turkey,Asia,True,1,True
+The city of Reynosa is not in Mexico.,0,Reynosa,Mexico,Americas,False,0,True
+The city of Reynosa is not in China.,1,Reynosa,Mexico,Americas,True,1,True
+The city of Ibague is not in Colombia.,0,Ibague,Colombia,Americas,False,0,True
+The city of Ibague is not in Finland.,1,Ibague,Colombia,Americas,True,1,True
+The city of Hengyang is not in China.,0,Hengyang,China,Asia,False,0,True
+The city of Hengyang is not in Turkey.,1,Hengyang,China,Asia,True,1,True
+The city of Tangerang is not in Indonesia.,0,Tangerang,Indonesia,Asia,False,0,True
+The city of Tangerang is not in China.,1,Tangerang,Indonesia,Asia,True,1,True

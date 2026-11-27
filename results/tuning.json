@@ -1,0 +1,115 @@
+{
+  "n_train": 1196,
+  "n_train_cities": 598,
+  "folds_val_sizes": [
+    240,
+    240,
+    240,
+    238,
+    238
+  ],
+  "LR": {
+    "grid_size": 26,
+    "n_fits": 130,
+    "runtime_sec": 14.2,
+    "best_params": {
+      "clf__C": 0.1,
+      "clf__penalty": "l1"
+    },
+    "cv_mean": 0.9966596638655462,
+    "cv_sd": 0.0016702231197874837,
+    "best_by_variant": {
+      "l1": {
+        "cv_mean": 0.9966596638655462,
+        "cv_sd": 0.0016702231197874837,
+        "params": {
+          "clf__C": "0.1",
+          "clf__penalty": "l1"
+        }
+      },
+      "l2": {
+        "cv_mean": 0.9966596638655462,
+        "cv_sd": 0.0016702231197874837,
+        "params": {
+          "clf__C": "0.1",
+          "clf__penalty": "l2"
+        }
+      }
+    },
+    "best_l1_nonzero_coefs": 39
+  },
+  "RF": {
+    "grid_size": 48,
+    "n_fits": 240,
+    "runtime_sec": 222.7,
+    "best_params": {
+      "clf__max_depth": null,
+      "clf__max_features": 0.1,
+      "clf__n_estimators": 500,
+      "pca": "none"
+    },
+    "cv_mean": 0.9941596638655461,
+    "cv_sd": 0.004246458411670608,
+    "best_by_variant": {
+      "PCA100": {
+        "cv_mean": 0.9866316526610645,
+        "cv_sd": 0.004061226195079139,
+        "params": {
+          "clf__max_depth": "None",
+          "clf__max_features": "sqrt",
+          "clf__n_estimators": "300",
+          "pca": "PCA100"
+        }
+      },
+      "PCA20": {
+        "cv_mean": 0.9883053221288517,
+        "cv_sd": 0.00407410186287265,
+        "params": {
+          "clf__max_depth": "10",
+          "clf__max_features": "0.1",
+          "clf__n_estimators": "300",
+          "pca": "PCA20"
+        }
+      },
+      "PCA50": {
+        "cv_mean": 0.988312324929972,
+        "cv_sd": 0.005509802853525665,
+        "params": {
+          "clf__max_depth": "None",
+          "clf__max_features": "sqrt",
+          "clf__n_estimators": "300",
+          "pca": "PCA50"
+        }
+      },
+      "none": {
+        "cv_mean": 0.9941596638655461,
+        "cv_sd": 0.004246458411670608,
+        "params": {
+          "clf__max_depth": "None",
+          "clf__max_features": "0.1",
+          "clf__n_estimators": "500",
+          "pca": "none"
+        }
+      }
+    }
+  },
+  "kmeans": {
+    "PCA2": {
+      "ARI_label": 0.9374120240333672,
+      "cluster_accuracy": 0.9841137123745819,
+      "ARI_region": -0.0009392756893415641
+    },
+    "PCA10": {
+      "ARI_label": 0.940655745767654,
+      "cluster_accuracy": 0.9849498327759197,
+      "ARI_region": -0.0009751401408958905
+    },
+    "PCA50": {
+      "ARI_label": 0.9471599840434468,
+      "cluster_accuracy": 0.9866220735785953,
+      "ARI_region": -0.0009275917738943156
+    },
+    "runtime_sec": 0.3,
+    "grid_size": 3
+  }
+}

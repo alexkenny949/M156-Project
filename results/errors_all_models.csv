@@ -1,0 +1,4 @@
+statement,label,region,lr_correct,rf_correct,chat_correct
+The city of Nowrangapur is in India.,1,Asia,True,True,False
+The city of New Kingston is in Jamaica.,1,Americas,True,True,False
+The city of Tangerang is in Indonesia.,1,Asia,False,False,True

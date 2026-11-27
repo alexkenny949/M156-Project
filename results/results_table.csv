@@ -1,0 +1,132 @@
+section,dataset,method,metric,value,ci_low,ci_high,notes
+EDA,cities,PCA,PC1_abs_corr_with_label,0.8445,,,PCA fit on cities training split
+EDA,cities,PCA,PC1_eta2_region,0.0174,,,share of PC variance explained by region
+EDA,cities,PCA,PC1_explained_var,0.0768,,,
+EDA,cities,PCA,PC2_abs_corr_with_label,0.4054,,,PCA fit on cities training split
+EDA,cities,PCA,PC2_eta2_region,0.0616,,,share of PC variance explained by region
+EDA,cities,PCA,PC2_explained_var,0.0672,,,
+EDA,cities,PCA,PC3_abs_corr_with_label,0.1895,,,PCA fit on cities training split
+EDA,cities,PCA,PC3_eta2_region,0.1173,,,share of PC variance explained by region
+EDA,cities,PCA,PC3_explained_var,0.0454,,,
+EDA,cities,PCA,PC4_abs_corr_with_label,0.0861,,,PCA fit on cities training split
+EDA,cities,PCA,PC4_eta2_region,0.2203,,,share of PC variance explained by region
+EDA,cities,PCA,PC4_explained_var,0.0353,,,
+EDA,cities,PCA,PC5_abs_corr_with_label,0.0682,,,PCA fit on cities training split
+EDA,cities,PCA,PC5_eta2_region,0.2036,,,share of PC variance explained by region
+EDA,cities,PCA,PC5_explained_var,0.0292,,,
+EDA,cities,PCA,PC6_abs_corr_with_label,0.0167,,,PCA fit on cities training split
+EDA,cities,PCA,PC6_eta2_region,0.1146,,,share of PC variance explained by region
+EDA,cities,PCA,PC6_explained_var,0.0263,,,
+EDA,cities,PCA,PC7_abs_corr_with_label,0.0007,,,PCA fit on cities training split
+EDA,cities,PCA,PC7_eta2_region,0.1258,,,share of PC variance explained by region
+EDA,cities,PCA,PC7_explained_var,0.0249,,,
+EDA,cities,PCA,PC8_abs_corr_with_label,0.1108,,,PCA fit on cities training split
+EDA,cities,PCA,PC8_eta2_region,0.1427,,,share of PC variance explained by region
+EDA,cities,PCA,PC8_explained_var,0.0225,,,
+EDA,cities,PCA,PC9_abs_corr_with_label,0.0771,,,PCA fit on cities training split
+EDA,cities,PCA,PC9_eta2_region,0.0332,,,share of PC variance explained by region
+EDA,cities,PCA,PC9_explained_var,0.0196,,,
+EDA,cities,PCA,PC10_abs_corr_with_label,0.0605,,,PCA fit on cities training split
+EDA,cities,PCA,PC10_eta2_region,0.0062,,,share of PC variance explained by region
+EDA,cities,PCA,PC10_explained_var,0.0178,,,
+EDA,cities,PCA,cum_explained_var_2PCs,0.144,,,
+EDA,cities,PCA,cum_explained_var_10PCs,0.3649,,,
+EDA,cities,PCA,cum_explained_var_20PCs,0.4957,,,
+EDA,cities,PCA,cum_explained_var_50PCs,0.6896,,,
+EDA,cities,cosine,cosine_twin_median,0.7098,0.6114,0.7977,ci columns = 2.5/97.5 percentiles of the distribution
+EDA,cities,cosine,cosine_random_median,0.4766,0.3624,0.7127,ci columns = 2.5/97.5 percentiles of the distribution
+Tuning,cities,LR,grid_size,26,,,130 CV fits
+Tuning,cities,LR,tuning_runtime_sec,14.2,,,
+Tuning,cities,LR,final_fit_runtime_sec,0.2,,,
+Tuning,cities,LR,best_params,"{""clf__C"": 0.1, ""clf__penalty"": ""l1""}",,,
+Tuning,cities,RF,grid_size,48,,,240 CV fits
+Tuning,cities,RF,tuning_runtime_sec,222.7,,,
+Tuning,cities,RF,final_fit_runtime_sec,8.0,,,
+Tuning,cities,RF,best_params,"{""clf__max_depth"": null, ""clf__max_features"": 0.1, ""clf__n_estimators"": 500, ""pca"": ""none""}",,,
+Tuning,cities,LR (l1),nonzero_coefficients,39,,,best L1 model refit on training split; out of 4096
+Tuning,cities,PCA + k-means,grid_size,3,,,"PCs in {2, 10, 50}"
+CV,cities,LR,cv_accuracy_mean,0.9967,,,sd = 0.0017; 5-fold city-grouped CV on training split
+CV,cities,LR,cv_accuracy_sd,0.0017,,,
+CV,cities,LR (l1),cv_accuracy_mean,0.9967,,,"sd = 0.0017; best config within this variant: {""clf__C"": ""0.1"", ""clf__penalty"": ""l1""}"
+CV,cities,LR (l2),cv_accuracy_mean,0.9967,,,"sd = 0.0017; best config within this variant: {""clf__C"": ""0.1"", ""clf__penalty"": ""l2""}"
+CV,cities,RF,cv_accuracy_mean,0.9942,,,sd = 0.0042; 5-fold city-grouped CV on training split
+CV,cities,RF,cv_accuracy_sd,0.0042,,,
+CV,cities,RF (PCA100),cv_accuracy_mean,0.9866,,,"sd = 0.0041; best config within this variant: {""clf__max_depth"": ""None"", ""clf__max_features"": ""sqrt"", ""clf__n_estimators"": ""300"", ""pca"": ""PCA100""}"
+CV,cities,RF (PCA20),cv_accuracy_mean,0.9883,,,"sd = 0.0041; best config within this variant: {""clf__max_depth"": ""10"", ""clf__max_features"": ""0.1"", ""clf__n_estimators"": ""300"", ""pca"": ""PCA20""}"
+CV,cities,RF (PCA50),cv_accuracy_mean,0.9883,,,"sd = 0.0055; best config within this variant: {""clf__max_depth"": ""None"", ""clf__max_features"": ""sqrt"", ""clf__n_estimators"": ""300"", ""pca"": ""PCA50""}"
+CV,cities,RF (none),cv_accuracy_mean,0.9942,,,"sd = 0.0042; best config within this variant: {""clf__max_depth"": ""None"", ""clf__max_features"": ""0.1"", ""clf__n_estimators"": ""500"", ""pca"": ""none""}"
+Test,cities,LR,test_accuracy,0.9967,0.99,1.0,"95% CI: city-level bootstrap, 1000 resamples"
+Test,cities,LR,test_roc_auc,0.9994,0.998,1.0,"95% CI: city-level bootstrap, 1000 resamples"
+Test,cities,LR,confusion_matrix,"[[150, 0], [1, 149]]",,,"rows = true label [False, True], cols = predicted [False, True]"
+Test,cities,RF,test_accuracy,0.9967,0.99,1.0,"95% CI: city-level bootstrap, 1000 resamples"
+Test,cities,RF,test_roc_auc,0.9994,0.9979,1.0,"95% CI: city-level bootstrap, 1000 resamples"
+Test,cities,RF,confusion_matrix,"[[150, 0], [1, 149]]",,,"rows = true label [False, True], cols = predicted [False, True]"
+Test,cities,Majority class,test_accuracy,0.5,,,test split is exactly 150 true / 150 false
+Test,cities,Chat baseline (Nemotron-3-Super-120B),test_accuracy,0.9933,0.9833,1.0,"zero-shot; baseline only, not a course method"
+Paired,cities,LR minus RF,test_accuracy_difference,0.0,0.0,0.0,95% CI: paired city-level bootstrap
+Paired,cities,LR vs RF,mcnemar_exact_p,1.0,,,"discordant: LR right/RF wrong = 0, RF right/LR wrong = 0"
+Baseline,cities test,Chat baseline (nvidia/nemotron-3-super-120b-a12b),accuracy,0.9933,,,"zero-shot, temperature 0, max_tokens 2, thinking disabled; unparseable = 0"
+Baseline,neg_cities test,Chat baseline (nvidia/nemotron-3-super-120b-a12b),accuracy,1.0,,,"zero-shot, temperature 0, max_tokens 2, thinking disabled; unparseable = 0"
+Unsupervised,cities (train split),PCA2 + k-means(2),ARI_label,0.9374,,,
+Unsupervised,cities (train split),PCA2 + k-means(2),cluster_accuracy,0.9841,,,
+Unsupervised,cities (train split),PCA2 + k-means(2),ARI_region,-0.0009,,,
+Unsupervised,cities (train split),PCA10 + k-means(2),ARI_label,0.9407,,,
+Unsupervised,cities (train split),PCA10 + k-means(2),cluster_accuracy,0.9849,,,
+Unsupervised,cities (train split),PCA10 + k-means(2),ARI_region,-0.001,,,
+Unsupervised,cities (train split),PCA50 + k-means(2),ARI_label,0.9472,,,
+Unsupervised,cities (train split),PCA50 + k-means(2),cluster_accuracy,0.9866,,,
+Unsupervised,cities (train split),PCA50 + k-means(2),ARI_region,-0.0009,,,
+Transfer,within cities,LR,accuracy,0.9967,,,cities-tuned hyperparameters
+Transfer,within cities,LR,roc_auc,0.9994,,,
+Transfer,within cities,LR,share_predicted_true,0.4967,,,true share is 0.5; deviation = threshold shift
+Transfer,(a) city-disjoint: cities -> neg_cities,LR,accuracy,0.8667,,,cities-tuned hyperparameters
+Transfer,(a) city-disjoint: cities -> neg_cities,LR,roc_auc,0.9979,,,
+Transfer,(a) city-disjoint: cities -> neg_cities,LR,share_predicted_true,0.3667,,,true share is 0.5; deviation = threshold shift
+Transfer,(b) all cities: cities -> neg_cities,LR,accuracy,0.8336,,,cities-tuned hyperparameters
+Transfer,(b) all cities: cities -> neg_cities,LR,roc_auc,0.9965,,,
+Transfer,(b) all cities: cities -> neg_cities,LR,share_predicted_true,0.3376,,,true share is 0.5; deviation = threshold shift
+Transfer,within neg_cities,LR,accuracy,0.9967,,,cities-tuned hyperparameters
+Transfer,within neg_cities,LR,roc_auc,1.0,,,
+Transfer,within neg_cities,LR,share_predicted_true,0.5033,,,true share is 0.5; deviation = threshold shift
+Transfer,(a) city-disjoint: neg_cities -> cities,LR,accuracy,0.7267,,,cities-tuned hyperparameters
+Transfer,(a) city-disjoint: neg_cities -> cities,LR,roc_auc,0.996,,,
+Transfer,(a) city-disjoint: neg_cities -> cities,LR,share_predicted_true,0.7733,,,true share is 0.5; deviation = threshold shift
+Transfer,(b) all cities: neg_cities -> cities,LR,accuracy,0.7747,,,cities-tuned hyperparameters
+Transfer,(b) all cities: neg_cities -> cities,LR,roc_auc,0.9896,,,
+Transfer,(b) all cities: neg_cities -> cities,LR,share_predicted_true,0.7226,,,true share is 0.5; deviation = threshold shift
+Transfer,within cities,RF,accuracy,0.9967,,,cities-tuned hyperparameters
+Transfer,within cities,RF,roc_auc,0.9994,,,
+Transfer,within cities,RF,share_predicted_true,0.4967,,,true share is 0.5; deviation = threshold shift
+Transfer,(a) city-disjoint: cities -> neg_cities,RF,accuracy,0.9433,,,cities-tuned hyperparameters
+Transfer,(a) city-disjoint: cities -> neg_cities,RF,roc_auc,0.9974,,,
+Transfer,(a) city-disjoint: cities -> neg_cities,RF,share_predicted_true,0.45,,,true share is 0.5; deviation = threshold shift
+Transfer,(b) all cities: cities -> neg_cities,RF,accuracy,0.9365,,,cities-tuned hyperparameters
+Transfer,(b) all cities: cities -> neg_cities,RF,roc_auc,0.9971,,,
+Transfer,(b) all cities: cities -> neg_cities,RF,share_predicted_true,0.4432,,,true share is 0.5; deviation = threshold shift
+Transfer,within neg_cities,RF,accuracy,0.9967,,,cities-tuned hyperparameters
+Transfer,within neg_cities,RF,roc_auc,0.9995,,,
+Transfer,within neg_cities,RF,share_predicted_true,0.5033,,,true share is 0.5; deviation = threshold shift
+Transfer,(a) city-disjoint: neg_cities -> cities,RF,accuracy,0.93,,,cities-tuned hyperparameters
+Transfer,(a) city-disjoint: neg_cities -> cities,RF,roc_auc,0.9962,,,
+Transfer,(a) city-disjoint: neg_cities -> cities,RF,share_predicted_true,0.5633,,,true share is 0.5; deviation = threshold shift
+Transfer,(b) all cities: neg_cities -> cities,RF,accuracy,0.9398,,,cities-tuned hyperparameters
+Transfer,(b) all cities: neg_cities -> cities,RF,roc_auc,0.9954,,,
+Transfer,(b) all cities: neg_cities -> cities,RF,share_predicted_true,0.5588,,,true share is 0.5; deviation = threshold shift
+Errors,cities test,LR,n_errors,1,,,out of 300; list in results/errors_LR.csv
+Errors,cities test,LR,error_rate_region_Africa,0.0,,,0.0/38.0
+Errors,cities test,LR,error_rate_region_Americas,0.0,,,0.0/32.0
+Errors,cities test,LR,error_rate_region_Asia,0.0052,,,1.0/194.0
+Errors,cities test,LR,error_rate_region_Europe,0.0,,,0.0/36.0
+Errors,cities test,LR,error_rate_country_China,0.0,,,0.0/72.0
+Errors,cities test,LR,error_rate_country_India,0.0,,,0.0/44.0
+Errors,cities test,LR,error_rate_country_Russia,0.0,,,0.0/20.0
+Errors,cities test,LR,error_rate_country_Turkey,0.0,,,0.0/16.0
+Errors,cities test,LR,error_rate_country_Brazil,0.0,,,0.0/12.0
+Errors,cities test,LR,error_rate_country_Iran,0.0,,,0.0/12.0
+Errors,cities test,LR,error_rate_country_Japan,0.0,,,0.0/10.0
+Errors,cities test,LR,error_rate_country_Indonesia,0.125,,,1.0/8.0
+Errors,cities test,LR,error_rate_country_Uzbekistan,0.0,,,0.0/6.0
+Errors,cities test,LR,error_rate_country_the United States,0.0,,,0.0/6.0
+Cost,cities test + neg_cities test,Chat baseline,api_cost_usd,0.00944,,,27852 input + 1200 output tokens; $0.3/$0.9 per 1M in/out
+Cost,cities,Embedding (Qwen3-Embedding-8B),prompt_tokens,16767.0,,,$0.01 per 1M tokens
+Cost,neg_cities,Embedding (Qwen3-Embedding-8B),prompt_tokens,18263.0,,,$0.01 per 1M tokens

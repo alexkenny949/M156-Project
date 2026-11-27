@@ -1,0 +1,301 @@
+statement,raw_answer
+The city of Baoji is in China.,True
+The city of Baoji is in Guatemala.,False
+The city of Abidjan is in Côte d'Ivoire.,True
+The city of Abidjan is in China.,False
+The city of Panshan is in China.,True
+The city of Panshan is in Japan.,False
+The city of Nowrangapur is in India.,False
+The city of Nowrangapur is in Vietnam.,False
+The city of Sambhaji Nagar is in India.,True
+The city of Sambhaji Nagar is in China.,False
+The city of Serang is in Indonesia.,True
+The city of Serang is in Poland.,False
+The city of Tirunelveli is in India.,True
+The city of Tirunelveli is in China.,False
+The city of Thane is in India.,True
+The city of Thane is in China.,False
+The city of Liaocheng is in China.,True
+The city of Liaocheng is in South Korea.,False
+The city of Panzhihua is in China.,True
+The city of Panzhihua is in Iran.,False
+The city of Fort Worth is in the United States.,True
+The city of Fort Worth is in Russia.,False
+The city of Boumerdes is in Algeria.,True
+The city of Boumerdes is in Iran.,False
+The city of Asmara is in Eritrea.,True
+The city of Asmara is in Indonesia.,False
+The city of Perm is in Russia.,True
+The city of Perm is in China.,False
+The city of Jeddah is in Saudi Arabia.,True
+The city of Jeddah is in Myanmar.,False
+The city of Konya is in Turkey.,True
+The city of Konya is in Russia.,False
+The city of Belo Horizonte is in Brazil.,True
+The city of Belo Horizonte is in North Korea.,False
+The city of Poznan is in Poland.,True
+The city of Poznan is in Mexico.,False
+The city of Qom is in Iran.,True
+The city of Qom is in Vietnam.,False
+The city of Beira is in Mozambique.,True
+The city of Beira is in India.,False
+The city of Ahvaz is in Iran.,True
+The city of Ahvaz is in China.,False
+The city of Izmir is in Turkey.,True
+The city of Izmir is in Iran.,False
+The city of Shaoxing is in China.,True
+The city of Shaoxing is in the Philippines.,False
+The city of Lyon is in France.,True
+The city of Lyon is in Canada.,False
+The city of Giza is in Egypt.,True
+The city of Giza is in India.,False
+The city of Lipetsk is in Russia.,True
+The city of Lipetsk is in China.,False
+The city of Tashkent is in Uzbekistan.,True
+The city of Tashkent is in Mexico.,False
+The city of Jabalpur is in India.,True
+The city of Jabalpur is in Ukraine.,False
+The city of Antalya is in Turkey.,True
+The city of Antalya is in Germany.,False
+The city of Irkutsk is in Russia.,True
+The city of Irkutsk is in Morocco.,False
+The city of Nashik is in India.,True
+The city of Nashik is in China.,False
+The city of Orumiyeh is in Iran.,True
+The city of Orumiyeh is in Saudi Arabia.,False
+The city of Kota Bharu is in Malaysia.,True
+The city of Kota Bharu is in Norway.,False
+The city of Sarajevo is in Bosnia and Herzegovina.,True
+The city of Sarajevo is in South Africa.,False
+The city of Zhoushan is in China.,True
+The city of Zhoushan is in the Philippines.,False
+The city of Hegang is in China.,True
+The city of Hegang is in Russia.,False
+The city of Campos dos Goytacazes is in Brazil.,True
+The city of Campos dos Goytacazes is in Vietnam.,False
+The city of Oyo is in Nigeria.,True
+The city of Oyo is in China.,False
+The city of Bahawalpur is in Pakistan.,True
+The city of Bahawalpur is in China.,False
+The city of New Kingston is in Jamaica.,False
+The city of New Kingston is in South Africa.,False
+The city of Kemerovo is in Russia.,True
+The city of Kemerovo is in India.,False
+The city of Ghaziabad is in India.,True
+The city of Ghaziabad is in South Korea.,False
+The city of Tucson is in the United States.,True
+The city of Tucson is in Canada.,False
+The city of Sendai is in Japan.,True
+The city of Sendai is in Brazil.,False
+The city of Pimpri is in India.,True
+The city of Pimpri is in China.,False
+The city of Bursa is in Turkey.,True
+The city of Bursa is in Bosnia and Herzegovina.,False
+The city of Dar es Salaam is in Tanzania.,True
+The city of Dar es Salaam is in Italy.,False
+The city of Mbuji-Mayi is in the Democratic Republic of the Congo.,True
+The city of Mbuji-Mayi is in Pakistan.,False
+The city of Osaka is in Japan.,True
+The city of Osaka is in India.,False
+The city of Wenzhou is in China.,True
+The city of Wenzhou is in Moldova.,False
+The city of Kunming is in China.,True
+The city of Kunming is in Mexico.,False
+The city of Teresina is in Brazil.,True
+The city of Teresina is in Vietnam.,False
+The city of Hannover is in Germany.,True
+The city of Hannover is in China.,False
+The city of Penza is in Russia.,True
+The city of Penza is in China.,False
+The city of Enugu is in Nigeria.,True
+The city of Enugu is in South Korea.,False
+The city of Shizuoka is in Japan.,True
+The city of Shizuoka is in China.,False
+The city of Meerut is in India.,True
+The city of Meerut is in Nigeria.,False
+The city of Hubli is in India.,True
+The city of Hubli is in Indonesia.,False
+The city of Astrakhan is in Russia.,True
+The city of Astrakhan is in India.,False
+The city of Anyang is in China.,True
+The city of Anyang is in Kuwait.,False
+The city of Qinhuangdao is in China.,True
+The city of Qinhuangdao is in Eritrea.,False
+The city of Beijing is in China.,True
+The city of Beijing is in Ghana.,False
+The city of Sangli is in India.,True
+The city of Sangli is in Japan.,False
+The city of Prayagraj is in India.,True
+The city of Prayagraj is in Kenya.,False
+The city of Aligarh is in India.,True
+The city of Aligarh is in China.,False
+The city of Semarang is in Indonesia.,True
+The city of Semarang is in Saudi Arabia.,False
+The city of Zaozhuang is in China.,True
+The city of Zaozhuang is in Belarus.,False
+The city of Maoming is in China.,True
+The city of Maoming is in Brazil.,False
+The city of Siping is in China.,True
+The city of Siping is in Iraq.,False
+The city of Cotonou is in Benin.,True
+The city of Cotonou is in China.,False
+The city of Nagoya is in Japan.,True
+The city of Nagoya is in China.,False
+The city of Lilongwe is in Malawi.,True
+The city of Lilongwe is in Turkey.,False
+The city of Kharkiv is in Ukraine.,True
+The city of Kharkiv is in Moldova.,False
+The city of Malatya is in Turkey.,True
+The city of Malatya is in Russia.,False
+The city of Lviv is in Ukraine.,True
+The city of Lviv is in China.,False
+The city of Tehran is in Iran.,True
+The city of Tehran is in Niger.,False
+The city of Recife is in Brazil.,True
+The city of Recife is in North Korea.,False
+The city of Asyut is in Egypt.,True
+The city of Asyut is in Japan.,False
+The city of Yinchuan is in China.,True
+The city of Yinchuan is in Bangladesh.,False
+The city of Jieyang is in China.,True
+The city of Jieyang is in the Philippines.,False
+The city of Longyan is in China.,True
+The city of Longyan is in Benin.,False
+The city of Dandong is in China.,True
+The city of Dandong is in Niger.,False
+The city of Lusaka is in Zambia.,True
+The city of Lusaka is in Poland.,False
+The city of Aden is in Yemen.,True
+The city of Aden is in Japan.,False
+The city of Londrina is in Brazil.,True
+The city of Londrina is in India.,False
+The city of Kunshan is in China.,True
+The city of Kunshan is in Russia.,False
+The city of Yichang is in China.,True
+The city of Yichang is in Japan.,False
+The city of Rangpur is in Bangladesh.,True
+The city of Rangpur is in Russia.,False
+The city of Ashgabat is in Turkmenistan.,True
+The city of Ashgabat is in Bangladesh.,False
+The city of Nasiriyah is in Iraq.,True
+The city of Nasiriyah is in Rwanda.,False
+The city of Kahriz is in Iran.,True
+The city of Kahriz is in Uzbekistan.,False
+The city of Vladivostok is in Russia.,True
+The city of Vladivostok is in Romania.,False
+The city of Adana is in Turkey.,True
+The city of Adana is in Togo.,False
+The city of Namangan is in Uzbekistan.,True
+The city of Namangan is in India.,False
+The city of Shivaji Nagar is in India.,True
+The city of Shivaji Nagar is in China.,False
+The city of Sanya is in China.,True
+The city of Sanya is in India.,False
+The city of Al Ain City is in the United Arab Emirates.,True
+The city of Al Ain City is in India.,False
+The city of Tegucigalpa is in Honduras.,True
+The city of Tegucigalpa is in China.,False
+The city of Dombivli is in India.,True
+The city of Dombivli is in Mali.,False
+The city of Kallakurichi is in India.,True
+The city of Kallakurichi is in Iraq.,False
+The city of Santa Maria Chimalhuacan is in Mexico.,True
+The city of Santa Maria Chimalhuacan is in Saudi Arabia.,False
+The city of Kalyan is in India.,True
+The city of Kalyan is in South Korea.,False
+The city of Bhavnagar is in India.,True
+The city of Bhavnagar is in Japan.,False
+The city of Erzurum is in Turkey.,True
+The city of Erzurum is in the Democratic Republic of the Congo.,False
+The city of Barquisimeto is in Venezuela.,True
+The city of Barquisimeto is in Poland.,False
+The city of Krasnoyarsk is in Russia.,True
+The city of Krasnoyarsk is in India.,False
+The city of Pingliang is in China.,True
+The city of Pingliang is in Tanzania.,False
+The city of Puning is in China.,True
+The city of Puning is in India.,False
+The city of Oslo is in Norway.,True
+The city of Oslo is in Venezuela.,False
+The city of Ryazan' is in Russia.,True
+The city of Ryazan' is in South Korea.,False
+The city of Ho Chi Minh City is in Vietnam.,True
+The city of Ho Chi Minh City is in Gabon.,False
+The city of Hefei is in China.,True
+The city of Hefei is in Germany.,False
+The city of Chisinau is in Moldova.,True
+The city of Chisinau is in Germany.,False
+The city of Tiruppur is in India.,True
+The city of Tiruppur is in Japan.,False
+The city of Kyoto is in Japan.,True
+The city of Kyoto is in China.,False
+The city of Samarkand is in Uzbekistan.,True
+The city of Samarkand is in China.,False
+The city of Tomsk is in Russia.,True
+The city of Tomsk is in Ghana.,False
+The city of Oklahoma City is in the United States.,True
+The city of Oklahoma City is in China.,False
+The city of Jiaozuo is in China.,True
+The city of Jiaozuo is in Bangladesh.,False
+The city of Tabriz is in Iran.,True
+The city of Tabriz is in India.,False
+The city of Kota Kinabalu is in Malaysia.,True
+The city of Kota Kinabalu is in the United States.,False
+The city of Nairobi is in Kenya.,True
+The city of Nairobi is in Mexico.,False
+The city of Quezon City is in the Philippines.,True
+The city of Quezon City is in China.,False
+The city of Fes is in Morocco.,True
+The city of Fes is in Mali.,False
+The city of Sanaa is in Yemen.,True
+The city of Sanaa is in China.,False
+The city of Pretoria is in South Africa.,True
+The city of Pretoria is in India.,False
+The city of Guiyang is in China.,True
+The city of Guiyang is in South Korea.,False
+The city of Ganzhou is in China.,True
+The city of Ganzhou is in South Korea.,False
+The city of Suining is in China.,True
+The city of Suining is in Algeria.,False
+The city of Jinan is in China.,True
+The city of Jinan is in Rwanda.,False
+The city of Putian is in China.,True
+The city of Putian is in Vietnam.,False
+The city of Shenyang is in China.,True
+The city of Shenyang is in Somalia.,False
+The city of Duque de Caxias is in Brazil.,True
+The city of Duque de Caxias is in Côte d'Ivoire.,False
+The city of Nampula is in Mozambique.,True
+The city of Nampula is in India.,False
+The city of Amritsar is in India.,True
+The city of Amritsar is in Moldova.,False
+The city of Ilorin is in Nigeria.,True
+The city of Ilorin is in Ukraine.,False
+The city of Khartoum is in Sudan.,True
+The city of Khartoum is in China.,False
+The city of Gujranwala is in Pakistan.,True
+The city of Gujranwala is in China.,False
+The city of Ulhasnagar is in India.,True
+The city of Ulhasnagar is in Senegal.,False
+The city of Kolkata is in India.,True
+The city of Kolkata is in Japan.,False
+The city of Batam is in Indonesia.,True
+The city of Batam is in Turkey.,False
+The city of Xingtai is in China.,True
+The city of Xingtai is in Russia.,False
+The city of Qujing is in China.,True
+The city of Qujing is in India.,False
+The city of Fuxin is in China.,True
+The city of Fuxin is in Pakistan.,False
+The city of Salta is in Argentina.,True
+The city of Salta is in India.,False
+The city of Cankaya is in Turkey.,True
+The city of Cankaya is in the United States.,False
+The city of Reynosa is in Mexico.,True
+The city of Reynosa is in China.,False
+The city of Ibague is in Colombia.,True
+The city of Ibague is in Finland.,False
+The city of Hengyang is in China.,True
+The city of Hengyang is in Turkey.,False
+The city of Tangerang is in Indonesia.,True
+The city of Tangerang is in China.,False
