@@ -64,32 +64,8 @@ def main():
     km = tuning["kmeans"]
     km_acc = km["PCA2"]["cluster_accuracy"]
 
-    fig, ax = plt.subplots(figsize=(8.5, 5))
-    for name, c, lab in [("LR", LR_C, "Logistic regression"), ("RF", RF_C, "Random forest")]:
-        d = agg[agg.model == name]
-        ax.fill_between(d.n_cities, d["mean"] - d["std"], np.minimum(d["mean"] + d["std"], 1.0),
-                        color=c, alpha=0.15, lw=0)
-        ax.plot(d.n_cities, d["mean"], "-o", color=c, lw=2, ms=7, label=lab, mec="white", mew=1.2)
-    ax.axhline(km_acc, color=TEXT2, lw=1.2, ls="--")
-    ax.annotate(f"k-means, no labels\n(training set): {km_acc:.1%}", (60, km_acc), xytext=(60, 0.88),
-                color=TEXT2, fontsize=11, ha="center", va="top",
-                arrowprops=dict(arrowstyle="-", color=TEXT2, lw=0.8))
-    ax.annotate("L1 penalty zeroes every weight\nat 20 statements: predicts all False", (10, 0.5),
-                xytext=(13, 0.6), color=TEXT2, fontsize=11, ha="left", va="center",
-                arrowprops=dict(arrowstyle="-", color=TEXT2, lw=0.8))
-    ax.set_xscale("log")
-    ax.set_xticks(SIZES + [n_all], [str(s) for s in SIZES + [n_all]])
-    ax.minorticks_off()
-    ax.set_xlabel("Number of training cities (2 statements each)")
-    ax.set_ylabel("Test accuracy (mean ± sd)")
-    ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda v, _: f"{v:.0%}"))
-    lo = max(0.5, (agg["mean"] - agg["std"]).min() - 0.02)
-    ax.set_ylim(lo, 1.005)
-    ax.set_title("How many labelled cities does it take?")
-    ax.legend(frameon=False, loc="lower right", bbox_to_anchor=(1.0, 0.08))
-    fig.text(0.0, -0.04, "5 random subsets of training cities per size (all 598: one run). "
-             "Fixed 300-statement test set; tuned hyperparameters.", color=TEXT2, fontsize=11)
-    savefig(fig, "results_learning_curve.png")
+    # Figure: superseded by src/learning_curve_retuned.py, which plots these fixed-C numbers
+    # alongside the re-tuned curves in figures/results_learning_curve.png.
 
     # ---------------- 2. Hard negatives
     reg = pd.read_csv(ROOT / "data" / "country_region.csv").set_index("country")["region"]

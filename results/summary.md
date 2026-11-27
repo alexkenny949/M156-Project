@@ -55,17 +55,21 @@ Bars: accuracy for train → test combinations. (a) = city-disjoint (train citie
 - (a) and (b) are similar, so unseen cities are not the issue. The drop comes from negation.
 
 ### `figures/results_learning_curve.png`: How many labelled cities does it take?
-LR and RF (tuned settings) trained on random subsets of 10, 25, 50, 100, 200 and all 598 training cities. Each subset size is repeated 5 times with fixed seeds, and every run is scored on the same 300-statement test set. Mean test accuracy:
+LR and RF trained on random subsets of 10, 25, 50, 100, 200 and all 598 training cities. Each size is repeated 5 times with fixed seeds, and every run is scored on the same 300-statement test set. **Fair version:** for every subset, both methods are re-tuned over their full section 4 grids, using grouped CV inside that subset only. That's leave-one-city-out for 10 cities and 3-fold grouped CV otherwise. The test set plays no part in tuning. The dashed line keeps the main-result LR setting (C = 0.1, L1) fixed, for comparison. Mean test accuracy ± sd:
 
 | Training cities | 10 | 25 | 50 | 100 | 200 | 598 (all) |
 |---|---|---|---|---|---|---|
-| Logistic regression | 50.0% ± 0.0 | 98.1% ± 1.0 | 98.7% ± 0.4 | 99.5% ± 0.2 | 99.5% ± 0.2 | 99.7% |
-| Random forest | 98.4% ± 0.7 | 98.9% ± 0.5 | 98.9% ± 0.2 | 99.3% ± 0.4 | 99.5% ± 0.2 | 99.7% |
+| LR, re-tuned per subset | 98.5% ± 0.4 | 98.6% ± 0.4 | 98.7% ± 0.4 | 99.3% ± 0.1 | 99.4% ± 0.3 | 99.7% |
+| RF, re-tuned per subset | 98.3% ± 0.7 | 98.6% ± 0.5 | 98.7% ± 0.3 | 99.0% ± 0.2 | 99.3% ± 0.2 | 99.7% |
+| LR, fixed C = 0.1 (dashed) | 50.0% ± 0.0 | 98.1% ± 1.0 | 98.7% ± 0.4 | 99.5% ± 0.2 | 99.5% ± 0.2 | 99.7% |
 
-- **About 25 labelled cities (50 statements) are enough for 98%.** Beyond that, more data adds less than 2 points.
-- **The LR 50% at 10 cities is a regularization artifact, not a failure to learn.** C = 0.1 was tuned for about 1,200 training statements. With only 20, the same L1 penalty outweighs the data and sets every weight to zero, so the model predicts "False" for everything. At 25 cities it keeps 5 nonzero weights and reaches 98%. This makes a good Q&A answer for "what does C control?".
-- **The dashed line is k-means on the training set with no labels (98.4%).** A few dozen labels are needed to beat it. It's drawn only as a reference, because it's scored on training data rather than the test set.
-- **Section 6 outcome:** consistent with "LR high, RF not better". The truth direction is so strong that very little labelled data is needed to find it.
+- **Ten labelled cities (20 statements) are already enough for about 98.5%**, for both methods once they are tuned for that amount of data. More data adds only about 1 point.
+- **The earlier 50% at 10 cities was a tuning artifact.** C = 0.1 was chosen for about 1,200 statements. With only 20, that L1 penalty sets every weight to zero, so the model predicts "False" for everything. Re-tuning on the small subset fixes it. This makes a good Q&A answer for "what does C control?".
+- **LR and RF stay within each other's spread at every size.** The nonlinear method never pulls ahead.
+- **Nonzero weights in the re-tuned LR:** 10 cities: 4096, 39, 4096, 4096, 4096 (four subsets chose L2 with C = 0.0001; one chose L1 with C = 10). 25 cities: 13, 4096, 4096, 4096, 4096 (one chose L1 with C = 0.32; four chose L2 with C = 0.0001).
+- **Caveat on which settings were chosen:** at 100 cities or fewer, the best inner-CV accuracy is 100%, so many settings tie. The grid search then takes the first tied setting in grid order, usually the smallest C with L2. The chosen settings are therefore partly arbitrary at small sizes, even though their test accuracy is consistently high.
+- **The dotted line is k-means on the training set with no labels (98.4%).** Ten labelled cities roughly match it. It's a reference only, because it's scored on training data rather than the test set.
+- RF was re-tuned too, as runtime allowed: 493 s total, against 30 s for LR. Section 6 outcome: consistent with "LR high, RF not better". The truth direction is strong enough to find from a handful of labelled examples.
 
 ### `figures/results_hard_negatives.png`: Are false statements harder when the wrong country is nearby?
 Each false test statement is labelled **same-region** if the wrong country is in the same UN region as the true one (e.g. a Chinese city placed in India), and **cross-region** otherwise (e.g. a Russian city placed in South Africa). Accuracy with 95% city-bootstrap CIs:

@@ -124,6 +124,22 @@ Learning curve,cities test,RF,test_accuracy_50_cities,0.9887,,,mean over 5 rando
 Learning curve,cities test,RF,test_accuracy_100_cities,0.9927,,,mean over 5 random subsets; sd = 0.0037
 Learning curve,cities test,RF,test_accuracy_200_cities,0.9947,,,mean over 5 random subsets; sd = 0.0018
 Learning curve,cities test,RF,test_accuracy_598_cities,0.9967,,,mean over 1 random subsets; sd = 0.0000
+Learning curve (re-tuned),cities test,LR (re-tuned),test_accuracy_10_cities,0.9853,,,mean over 5 subsets; sd = 0.0038; grid re-tuned by inner grouped CV (leave-one-city-out) on each subset
+Learning curve (re-tuned),cities test,LR (re-tuned),test_accuracy_25_cities,0.986,,,mean over 5 subsets; sd = 0.0043; grid re-tuned by inner grouped CV (3-fold) on each subset
+Learning curve (re-tuned),cities test,LR (re-tuned),test_accuracy_50_cities,0.9867,,,mean over 5 subsets; sd = 0.0041; grid re-tuned by inner grouped CV (3-fold) on each subset
+Learning curve (re-tuned),cities test,LR (re-tuned),test_accuracy_100_cities,0.9927,,,mean over 5 subsets; sd = 0.0015; grid re-tuned by inner grouped CV (3-fold) on each subset
+Learning curve (re-tuned),cities test,LR (re-tuned),test_accuracy_200_cities,0.994,,,mean over 5 subsets; sd = 0.0028; grid re-tuned by inner grouped CV (3-fold) on each subset
+Learning curve (re-tuned),cities test,LR (re-tuned),test_accuracy_598_cities,0.9967,,,mean over 1 subsets; sd = 0.0000; grid re-tuned by inner grouped CV (3-fold) on each subset
+Learning curve (re-tuned),cities test,RF (re-tuned),test_accuracy_10_cities,0.9827,,,mean over 5 subsets; sd = 0.0072; grid re-tuned by inner grouped CV (leave-one-city-out) on each subset
+Learning curve (re-tuned),cities test,RF (re-tuned),test_accuracy_25_cities,0.986,,,mean over 5 subsets; sd = 0.0055; grid re-tuned by inner grouped CV (3-fold) on each subset
+Learning curve (re-tuned),cities test,RF (re-tuned),test_accuracy_50_cities,0.9873,,,mean over 5 subsets; sd = 0.0028; grid re-tuned by inner grouped CV (3-fold) on each subset
+Learning curve (re-tuned),cities test,RF (re-tuned),test_accuracy_100_cities,0.99,,,mean over 5 subsets; sd = 0.0024; grid re-tuned by inner grouped CV (3-fold) on each subset
+Learning curve (re-tuned),cities test,RF (re-tuned),test_accuracy_200_cities,0.9933,,,mean over 5 subsets; sd = 0.0024; grid re-tuned by inner grouped CV (3-fold) on each subset
+Learning curve (re-tuned),cities test,RF (re-tuned),test_accuracy_598_cities,0.9967,,,mean over 1 subsets; sd = 0.0000; grid re-tuned by inner grouped CV (3-fold) on each subset
+Learning curve (re-tuned),cities train subsets,LR (re-tuned),nonzero_weights_10_cities,3284.6,,,"mean over 5 subsets; per subset: [4096.0, 39.0, 4096.0, 4096.0, 4096.0]; chosen: ['{""clf__C"": 0.0001, ""clf__penalty"": ""l2""}', '{""clf__C"": 10.0, ""clf__penalty"": ""l1""}', '{""clf__C"": 0.0001, ""clf__penalty"": ""l2""}', '{""clf__C"": 0.00031622776601683794, ""clf__penalty"": ""l2""}', '{""clf__C"": 0.0001, ""clf__penalty"": ""l2""}']"
+Learning curve (re-tuned),cities train subsets,LR (re-tuned),nonzero_weights_25_cities,3279.4,,,"mean over 5 subsets; per subset: [13.0, 4096.0, 4096.0, 4096.0, 4096.0]; chosen: ['{""clf__C"": 0.31622776601683794, ""clf__penalty"": ""l1""}', '{""clf__C"": 0.0001, ""clf__penalty"": ""l2""}', '{""clf__C"": 0.0001, ""clf__penalty"": ""l2""}', '{""clf__C"": 0.0001, ""clf__penalty"": ""l2""}', '{""clf__C"": 0.0001, ""clf__penalty"": ""l2""}']"
+Learning curve (re-tuned),cities,LR (re-tuned),total_runtime_sec,29.9,,,
+Learning curve (re-tuned),cities,RF (re-tuned),total_runtime_sec,493.3,,,
 Hard negatives,cities test,LR,"accuracy_False, same region",1.0,1.0,1.0,"n = 63, errors = 0; 95% CI city-level bootstrap (1000)"
 Hard negatives,cities test,RF,"accuracy_False, same region",1.0,1.0,1.0,"n = 63, errors = 0; 95% CI city-level bootstrap (1000)"
 Hard negatives,cities test,Chat baseline,"accuracy_False, same region",1.0,1.0,1.0,"n = 63, errors = 0; 95% CI city-level bootstrap (1000)"

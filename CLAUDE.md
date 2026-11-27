@@ -107,7 +107,7 @@ Baselines: majority class (~50%). Optional: a Token Factory chat model answering
    - (a) city-disjoint: train on the training-split cities of cities, test on the test-split cities of neg_cities, and the reverse (train neg_cities train split, test cities test split).
    - (b) all-cities: train on all of cities, test on all of neg_cities, and the reverse. Same cities on both sides, so this tests the negation shift only.
 8. **Unsupervised:** k-means ARI and cluster accuracy on the training set; PCA explained-variance plot.
-8a. **Learning curve:** LR and RF with the tuned hyperparameters, trained on random subsets of 10, 25, 50, 100, 200 and all training cities (grouped by city, 5 repeats per size, fixed seeds), scored on the fixed test set. Report mean +/- sd; k-means training-set cluster accuracy as a reference line. Hyperparameters are not re-tuned and nothing is selected from these runs.
+8a. **Learning curve:** LR and RF trained on random subsets of 10, 25, 50, 100, 200 and all training cities (grouped by city, 5 repeats per size, fixed seeds; same subsets for every method), scored on the fixed test set. For each subset, both methods are re-tuned over their section 4 grids by grouped inner CV on that subset only (leave-one-city-out below 15 cities, else 3-fold grouped). The main-result LR setting (C = 0.1, L1) is also run unchanged on the same subsets and plotted dashed, for comparison. Report mean +/- sd, and nonzero weight counts for re-tuned LR at 10 and 25 cities; k-means training-set cluster accuracy is a reference line. Nothing from these runs feeds back into the main results.
 8b. **Hard negatives:** split test false statements into same-region (wrong country in the same UN region as the correct country, per data/country_region.csv) and cross-region. Report accuracy for LR, RF and the chat baseline on same-region false, cross-region false and true statements, with city-level bootstrap CIs and counts. If the same-region test group has fewer than 20 statements, also report the breakdown on CV out-of-fold predictions over the training set.
 9. Fix random seeds; log every number to one results table.
 
@@ -127,7 +127,7 @@ Baselines: majority class (~50%). Optional: a Token Factory chat model answering
 
 The two rows above were added after the main results were known. They are follow-up checks, not pre-registered predictions; say so on the slides.
 
-**Results (filled in after running; see results/summary.md):** LR 99.7% and RF 99.7% test accuracy, indistinguishable (row 1). k-means finds truth without labels (opposite of row 5). Negation transfer degrades to 73-94% accuracy but AUC >= 0.99 (threshold shift, not row 4). Learning curve: about 25 training cities reach 98%. Hard negatives: same-region false statements 100% correct for all methods, so no sign of reliance on coarse geography.
+**Results (filled in after running; see results/summary.md):** LR 99.7% and RF 99.7% test accuracy, indistinguishable (row 1). k-means finds truth without labels (opposite of row 5). Negation transfer degrades to 73-94% accuracy but AUC >= 0.99 (threshold shift, not row 4). Learning curve (re-tuned per subset): 10 training cities already reach about 98.5% for both LR and RF; the fixed-C LR collapse at 10 cities was a tuning artifact. Hard negatives: same-region false statements 100% correct for all methods, so no sign of reliance on coarse geography.
 
 **Error analysis:** list misclassified test statements; check whether errors cluster by country, region, or city fame.
 
