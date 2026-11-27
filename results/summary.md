@@ -54,6 +54,33 @@ Bars: accuracy for train → test combinations. (a) = city-disjoint (train citie
 - **Why accuracy drops but AUC doesn't:** LR trained on affirmative statements labels only 37% of negated statements "true" (the real share is 50%). LR trained on negated statements labels 77% of affirmative statements "true". The direction that separates true from false is shared, but its zero point shifts with negation. In the paper's terms, part of what the classifier learned is tied to sentence form.
 - (a) and (b) are similar, so unseen cities are not the issue. The drop comes from negation.
 
+### `figures/results_learning_curve.png`: How many labelled cities does it take?
+LR and RF (tuned settings) trained on random subsets of 10, 25, 50, 100, 200 and all 598 training cities. Each subset size is repeated 5 times with fixed seeds, and every run is scored on the same 300-statement test set. Mean test accuracy:
+
+| Training cities | 10 | 25 | 50 | 100 | 200 | 598 (all) |
+|---|---|---|---|---|---|---|
+| Logistic regression | 50.0% ± 0.0 | 98.1% ± 1.0 | 98.7% ± 0.4 | 99.5% ± 0.2 | 99.5% ± 0.2 | 99.7% |
+| Random forest | 98.4% ± 0.7 | 98.9% ± 0.5 | 98.9% ± 0.2 | 99.3% ± 0.4 | 99.5% ± 0.2 | 99.7% |
+
+- **About 25 labelled cities (50 statements) are enough for 98%.** Beyond that, more data adds less than 2 points.
+- **The LR 50% at 10 cities is a regularization artifact, not a failure to learn.** C = 0.1 was tuned for about 1,200 training statements. With only 20, the same L1 penalty outweighs the data and sets every weight to zero, so the model predicts "False" for everything. At 25 cities it keeps 5 nonzero weights and reaches 98%. This makes a good Q&A answer for "what does C control?".
+- **The dashed line is k-means on the training set with no labels (98.4%).** A few dozen labels are needed to beat it. It's drawn only as a reference, because it's scored on training data rather than the test set.
+- **Section 6 outcome:** consistent with "LR high, RF not better". The truth direction is so strong that very little labelled data is needed to find it.
+
+### `figures/results_hard_negatives.png`: Are false statements harder when the wrong country is nearby?
+Each false test statement is labelled **same-region** if the wrong country is in the same UN region as the true one (e.g. a Chinese city placed in India), and **cross-region** otherwise (e.g. a Russian city placed in South Africa). Accuracy with 95% city-bootstrap CIs:
+
+| Group | n | Logistic regression | Random forest | Chat model |
+|---|---|---|---|---|
+| False, same region | 63 | 100% (0 wrong) | 100% (0 wrong) | 100% (0 wrong) |
+| False, cross-region | 87 | 100% (0 wrong) | 100% (0 wrong) | 100% (0 wrong) |
+| True statements | 150 | 99.3% [98.0, 100] (1 wrong) | 99.3% [98.0, 100] (1 wrong) | 98.7% [96.7, 100] (2 wrong) |
+
+- **Same-region false statements are not harder:** every method gets all 63 right. All errors, for every method, are true statements called false.
+- **Caveat:** 58 of the 63 same-region false statements are in Asia (49 of them involve China or India as the true or the wrong country, e.g. an Indian city placed in China), because the paper sampled wrong countries by frequency. "Same UN region" is also a coarse notion of "nearby". A finer split (e.g. UN subregion or neighbouring countries) might find harder cases, but the test set has no errors to explain here.
+- The same-region group has 63 statements, above the 20 threshold, so no out-of-fold CV breakdown was needed.
+- **Section 6 outcome:** consistent with "LR high, RF not better". Nothing suggests the classifiers rely on coarse geography: if they only detected "wrong continent", same-region false statements would fail.
+
 ## Tables
 
 ### Main results (cities test split, n = 300)

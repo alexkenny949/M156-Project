@@ -1,0 +1,301 @@
+statement,label,city,country,correct_country,region,subregion,stated_region,group,LR_correct,RF_correct,Chat_correct
+The city of Baoji is in China.,1,Baoji,China,China,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Baoji is in Guatemala.,0,Baoji,Guatemala,China,Asia,Eastern Asia,Americas,"False, cross-region",True,True,True
+The city of Abidjan is in Côte d'Ivoire.,1,Abidjan,Côte d'Ivoire,Côte d'Ivoire,Africa,Sub-Saharan Africa,Africa,True statements,True,True,True
+The city of Abidjan is in China.,0,Abidjan,China,Côte d'Ivoire,Africa,Sub-Saharan Africa,Asia,"False, cross-region",True,True,True
+The city of Panshan is in China.,1,Panshan,China,China,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Panshan is in Japan.,0,Panshan,Japan,China,Asia,Eastern Asia,Asia,"False, same region",True,True,True
+The city of Nowrangapur is in India.,1,Nowrangapur,India,India,Asia,Southern Asia,Asia,True statements,True,True,False
+The city of Nowrangapur is in Vietnam.,0,Nowrangapur,Vietnam,India,Asia,Southern Asia,Asia,"False, same region",True,True,True
+The city of Sambhaji Nagar is in India.,1,Sambhaji Nagar,India,India,Asia,Southern Asia,Asia,True statements,True,True,True
+The city of Sambhaji Nagar is in China.,0,Sambhaji Nagar,China,India,Asia,Southern Asia,Asia,"False, same region",True,True,True
+The city of Serang is in Indonesia.,1,Serang,Indonesia,Indonesia,Asia,South-eastern Asia,Asia,True statements,True,True,True
+The city of Serang is in Poland.,0,Serang,Poland,Indonesia,Asia,South-eastern Asia,Europe,"False, cross-region",True,True,True
+The city of Tirunelveli is in India.,1,Tirunelveli,India,India,Asia,Southern Asia,Asia,True statements,True,True,True
+The city of Tirunelveli is in China.,0,Tirunelveli,China,India,Asia,Southern Asia,Asia,"False, same region",True,True,True
+The city of Thane is in India.,1,Thane,India,India,Asia,Southern Asia,Asia,True statements,True,True,True
+The city of Thane is in China.,0,Thane,China,India,Asia,Southern Asia,Asia,"False, same region",True,True,True
+The city of Liaocheng is in China.,1,Liaocheng,China,China,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Liaocheng is in South Korea.,0,Liaocheng,South Korea,China,Asia,Eastern Asia,Asia,"False, same region",True,True,True
+The city of Panzhihua is in China.,1,Panzhihua,China,China,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Panzhihua is in Iran.,0,Panzhihua,Iran,China,Asia,Eastern Asia,Asia,"False, same region",True,True,True
+The city of Fort Worth is in the United States.,1,Fort Worth,the United States,the United States,Americas,Northern America,Americas,True statements,True,True,True
+The city of Fort Worth is in Russia.,0,Fort Worth,Russia,the United States,Americas,Northern America,Europe,"False, cross-region",True,True,True
+The city of Boumerdes is in Algeria.,1,Boumerdes,Algeria,Algeria,Africa,Northern Africa,Africa,True statements,True,True,True
+The city of Boumerdes is in Iran.,0,Boumerdes,Iran,Algeria,Africa,Northern Africa,Asia,"False, cross-region",True,True,True
+The city of Asmara is in Eritrea.,1,Asmara,Eritrea,Eritrea,Africa,Sub-Saharan Africa,Africa,True statements,True,True,True
+The city of Asmara is in Indonesia.,0,Asmara,Indonesia,Eritrea,Africa,Sub-Saharan Africa,Asia,"False, cross-region",True,True,True
+The city of Perm is in Russia.,1,Perm,Russia,Russia,Europe,Eastern Europe,Europe,True statements,True,True,True
+The city of Perm is in China.,0,Perm,China,Russia,Europe,Eastern Europe,Asia,"False, cross-region",True,True,True
+The city of Jeddah is in Saudi Arabia.,1,Jeddah,Saudi Arabia,Saudi Arabia,Asia,Western Asia,Asia,True statements,True,True,True
+The city of Jeddah is in Myanmar.,0,Jeddah,Myanmar,Saudi Arabia,Asia,Western Asia,Asia,"False, same region",True,True,True
+The city of Konya is in Turkey.,1,Konya,Turkey,Turkey,Asia,Western Asia,Asia,True statements,True,True,True
+The city of Konya is in Russia.,0,Konya,Russia,Turkey,Asia,Western Asia,Europe,"False, cross-region",True,True,True
+The city of Belo Horizonte is in Brazil.,1,Belo Horizonte,Brazil,Brazil,Americas,Latin America and the Caribbean,Americas,True statements,True,True,True
+The city of Belo Horizonte is in North Korea.,0,Belo Horizonte,North Korea,Brazil,Americas,Latin America and the Caribbean,Asia,"False, cross-region",True,True,True
+The city of Poznan is in Poland.,1,Poznan,Poland,Poland,Europe,Eastern Europe,Europe,True statements,True,True,True
+The city of Poznan is in Mexico.,0,Poznan,Mexico,Poland,Europe,Eastern Europe,Americas,"False, cross-region",True,True,True
+The city of Qom is in Iran.,1,Qom,Iran,Iran,Asia,Southern Asia,Asia,True statements,True,True,True
+The city of Qom is in Vietnam.,0,Qom,Vietnam,Iran,Asia,Southern Asia,Asia,"False, same region",True,True,True
+The city of Beira is in Mozambique.,1,Beira,Mozambique,Mozambique,Africa,Sub-Saharan Africa,Africa,True statements,True,True,True
+The city of Beira is in India.,0,Beira,India,Mozambique,Africa,Sub-Saharan Africa,Asia,"False, cross-region",True,True,True
+The city of Ahvaz is in Iran.,1,Ahvaz,Iran,Iran,Asia,Southern Asia,Asia,True statements,True,True,True
+The city of Ahvaz is in China.,0,Ahvaz,China,Iran,Asia,Southern Asia,Asia,"False, same region",True,True,True
+The city of Izmir is in Turkey.,1,Izmir,Turkey,Turkey,Asia,Western Asia,Asia,True statements,True,True,True
+The city of Izmir is in Iran.,0,Izmir,Iran,Turkey,Asia,Western Asia,Asia,"False, same region",True,True,True
+The city of Shaoxing is in China.,1,Shaoxing,China,China,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Shaoxing is in the Philippines.,0,Shaoxing,the Philippines,China,Asia,Eastern Asia,Asia,"False, same region",True,True,True
+The city of Lyon is in France.,1,Lyon,France,France,Europe,Western Europe,Europe,True statements,True,True,True
+The city of Lyon is in Canada.,0,Lyon,Canada,France,Europe,Western Europe,Americas,"False, cross-region",True,True,True
+The city of Giza is in Egypt.,1,Giza,Egypt,Egypt,Africa,Northern Africa,Africa,True statements,True,True,True
+The city of Giza is in India.,0,Giza,India,Egypt,Africa,Northern Africa,Asia,"False, cross-region",True,True,True
+The city of Lipetsk is in Russia.,1,Lipetsk,Russia,Russia,Europe,Eastern Europe,Europe,True statements,True,True,True
+The city of Lipetsk is in China.,0,Lipetsk,China,Russia,Europe,Eastern Europe,Asia,"False, cross-region",True,True,True
+The city of Tashkent is in Uzbekistan.,1,Tashkent,Uzbekistan,Uzbekistan,Asia,Central Asia,Asia,True statements,True,True,True
+The city of Tashkent is in Mexico.,0,Tashkent,Mexico,Uzbekistan,Asia,Central Asia,Americas,"False, cross-region",True,True,True
+The city of Jabalpur is in India.,1,Jabalpur,India,India,Asia,Southern Asia,Asia,True statements,True,True,True
+The city of Jabalpur is in Ukraine.,0,Jabalpur,Ukraine,India,Asia,Southern Asia,Europe,"False, cross-region",True,True,True
+The city of Antalya is in Turkey.,1,Antalya,Turkey,Turkey,Asia,Western Asia,Asia,True statements,True,True,True
+The city of Antalya is in Germany.,0,Antalya,Germany,Turkey,Asia,Western Asia,Europe,"False, cross-region",True,True,True
+The city of Irkutsk is in Russia.,1,Irkutsk,Russia,Russia,Europe,Eastern Europe,Europe,True statements,True,True,True
+The city of Irkutsk is in Morocco.,0,Irkutsk,Morocco,Russia,Europe,Eastern Europe,Africa,"False, cross-region",True,True,True
+The city of Nashik is in India.,1,Nashik,India,India,Asia,Southern Asia,Asia,True statements,True,True,True
+The city of Nashik is in China.,0,Nashik,China,India,Asia,Southern Asia,Asia,"False, same region",True,True,True
+The city of Orumiyeh is in Iran.,1,Orumiyeh,Iran,Iran,Asia,Southern Asia,Asia,True statements,True,True,True
+The city of Orumiyeh is in Saudi Arabia.,0,Orumiyeh,Saudi Arabia,Iran,Asia,Southern Asia,Asia,"False, same region",True,True,True
+The city of Kota Bharu is in Malaysia.,1,Kota Bharu,Malaysia,Malaysia,Asia,South-eastern Asia,Asia,True statements,True,True,True
+The city of Kota Bharu is in Norway.,0,Kota Bharu,Norway,Malaysia,Asia,South-eastern Asia,Europe,"False, cross-region",True,True,True
+The city of Sarajevo is in Bosnia and Herzegovina.,1,Sarajevo,Bosnia and Herzegovina,Bosnia and Herzegovina,Europe,Southern Europe,Europe,True statements,True,True,True
+The city of Sarajevo is in South Africa.,0,Sarajevo,South Africa,Bosnia and Herzegovina,Europe,Southern Europe,Africa,"False, cross-region",True,True,True
+The city of Zhoushan is in China.,1,Zhoushan,China,China,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Zhoushan is in the Philippines.,0,Zhoushan,the Philippines,China,Asia,Eastern Asia,Asia,"False, same region",True,True,True
+The city of Hegang is in China.,1,Hegang,China,China,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Hegang is in Russia.,0,Hegang,Russia,China,Asia,Eastern Asia,Europe,"False, cross-region",True,True,True
+The city of Campos dos Goytacazes is in Brazil.,1,Campos dos Goytacazes,Brazil,Brazil,Americas,Latin America and the Caribbean,Americas,True statements,True,True,True
+The city of Campos dos Goytacazes is in Vietnam.,0,Campos dos Goytacazes,Vietnam,Brazil,Americas,Latin America and the Caribbean,Asia,"False, cross-region",True,True,True
+The city of Oyo is in Nigeria.,1,Oyo,Nigeria,Nigeria,Africa,Sub-Saharan Africa,Africa,True statements,True,True,True
+The city of Oyo is in China.,0,Oyo,China,Nigeria,Africa,Sub-Saharan Africa,Asia,"False, cross-region",True,True,True
+The city of Bahawalpur is in Pakistan.,1,Bahawalpur,Pakistan,Pakistan,Asia,Southern Asia,Asia,True statements,True,True,True
+The city of Bahawalpur is in China.,0,Bahawalpur,China,Pakistan,Asia,Southern Asia,Asia,"False, same region",True,True,True
+The city of New Kingston is in Jamaica.,1,New Kingston,Jamaica,Jamaica,Americas,Latin America and the Caribbean,Americas,True statements,True,True,False
+The city of New Kingston is in South Africa.,0,New Kingston,South Africa,Jamaica,Americas,Latin America and the Caribbean,Africa,"False, cross-region",True,True,True
+The city of Kemerovo is in Russia.,1,Kemerovo,Russia,Russia,Europe,Eastern Europe,Europe,True statements,True,True,True
+The city of Kemerovo is in India.,0,Kemerovo,India,Russia,Europe,Eastern Europe,Asia,"False, cross-region",True,True,True
+The city of Ghaziabad is in India.,1,Ghaziabad,India,India,Asia,Southern Asia,Asia,True statements,True,True,True
+The city of Ghaziabad is in South Korea.,0,Ghaziabad,South Korea,India,Asia,Southern Asia,Asia,"False, same region",True,True,True
+The city of Tucson is in the United States.,1,Tucson,the United States,the United States,Americas,Northern America,Americas,True statements,True,True,True
+The city of Tucson is in Canada.,0,Tucson,Canada,the United States,Americas,Northern America,Americas,"False, same region",True,True,True
+The city of Sendai is in Japan.,1,Sendai,Japan,Japan,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Sendai is in Brazil.,0,Sendai,Brazil,Japan,Asia,Eastern Asia,Americas,"False, cross-region",True,True,True
+The city of Pimpri is in India.,1,Pimpri,India,India,Asia,Southern Asia,Asia,True statements,True,True,True
+The city of Pimpri is in China.,0,Pimpri,China,India,Asia,Southern Asia,Asia,"False, same region",True,True,True
+The city of Bursa is in Turkey.,1,Bursa,Turkey,Turkey,Asia,Western Asia,Asia,True statements,True,True,True
+The city of Bursa is in Bosnia and Herzegovina.,0,Bursa,Bosnia and Herzegovina,Turkey,Asia,Western Asia,Europe,"False, cross-region",True,True,True
+The city of Dar es Salaam is in Tanzania.,1,Dar es Salaam,Tanzania,Tanzania,Africa,Sub-Saharan Africa,Africa,True statements,True,True,True
+The city of Dar es Salaam is in Italy.,0,Dar es Salaam,Italy,Tanzania,Africa,Sub-Saharan Africa,Europe,"False, cross-region",True,True,True
+The city of Mbuji-Mayi is in the Democratic Republic of the Congo.,1,Mbuji-Mayi,the Democratic Republic of the Congo,the Democratic Republic of the Congo,Africa,Sub-Saharan Africa,Africa,True statements,True,True,True
+The city of Mbuji-Mayi is in Pakistan.,0,Mbuji-Mayi,Pakistan,the Democratic Republic of the Congo,Africa,Sub-Saharan Africa,Asia,"False, cross-region",True,True,True
+The city of Osaka is in Japan.,1,Osaka,Japan,Japan,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Osaka is in India.,0,Osaka,India,Japan,Asia,Eastern Asia,Asia,"False, same region",True,True,True
+The city of Wenzhou is in China.,1,Wenzhou,China,China,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Wenzhou is in Moldova.,0,Wenzhou,Moldova,China,Asia,Eastern Asia,Europe,"False, cross-region",True,True,True
+The city of Kunming is in China.,1,Kunming,China,China,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Kunming is in Mexico.,0,Kunming,Mexico,China,Asia,Eastern Asia,Americas,"False, cross-region",True,True,True
+The city of Teresina is in Brazil.,1,Teresina,Brazil,Brazil,Americas,Latin America and the Caribbean,Americas,True statements,True,True,True
+The city of Teresina is in Vietnam.,0,Teresina,Vietnam,Brazil,Americas,Latin America and the Caribbean,Asia,"False, cross-region",True,True,True
+The city of Hannover is in Germany.,1,Hannover,Germany,Germany,Europe,Western Europe,Europe,True statements,True,True,True
+The city of Hannover is in China.,0,Hannover,China,Germany,Europe,Western Europe,Asia,"False, cross-region",True,True,True
+The city of Penza is in Russia.,1,Penza,Russia,Russia,Europe,Eastern Europe,Europe,True statements,True,True,True
+The city of Penza is in China.,0,Penza,China,Russia,Europe,Eastern Europe,Asia,"False, cross-region",True,True,True
+The city of Enugu is in Nigeria.,1,Enugu,Nigeria,Nigeria,Africa,Sub-Saharan Africa,Africa,True statements,True,True,True
+The city of Enugu is in South Korea.,0,Enugu,South Korea,Nigeria,Africa,Sub-Saharan Africa,Asia,"False, cross-region",True,True,True
+The city of Shizuoka is in Japan.,1,Shizuoka,Japan,Japan,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Shizuoka is in China.,0,Shizuoka,China,Japan,Asia,Eastern Asia,Asia,"False, same region",True,True,True
+The city of Meerut is in India.,1,Meerut,India,India,Asia,Southern Asia,Asia,True statements,True,True,True
+The city of Meerut is in Nigeria.,0,Meerut,Nigeria,India,Asia,Southern Asia,Africa,"False, cross-region",True,True,True
+The city of Hubli is in India.,1,Hubli,India,India,Asia,Southern Asia,Asia,True statements,True,True,True
+The city of Hubli is in Indonesia.,0,Hubli,Indonesia,India,Asia,Southern Asia,Asia,"False, same region",True,True,True
+The city of Astrakhan is in Russia.,1,Astrakhan,Russia,Russia,Europe,Eastern Europe,Europe,True statements,True,True,True
+The city of Astrakhan is in India.,0,Astrakhan,India,Russia,Europe,Eastern Europe,Asia,"False, cross-region",True,True,True
+The city of Anyang is in China.,1,Anyang,China,China,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Anyang is in Kuwait.,0,Anyang,Kuwait,China,Asia,Eastern Asia,Asia,"False, same region",True,True,True
+The city of Qinhuangdao is in China.,1,Qinhuangdao,China,China,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Qinhuangdao is in Eritrea.,0,Qinhuangdao,Eritrea,China,Asia,Eastern Asia,Africa,"False, cross-region",True,True,True
+The city of Beijing is in China.,1,Beijing,China,China,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Beijing is in Ghana.,0,Beijing,Ghana,China,Asia,Eastern Asia,Africa,"False, cross-region",True,True,True
+The city of Sangli is in India.,1,Sangli,India,India,Asia,Southern Asia,Asia,True statements,True,True,True
+The city of Sangli is in Japan.,0,Sangli,Japan,India,Asia,Southern Asia,Asia,"False, same region",True,True,True
+The city of Prayagraj is in India.,1,Prayagraj,India,India,Asia,Southern Asia,Asia,True statements,True,True,True
+The city of Prayagraj is in Kenya.,0,Prayagraj,Kenya,India,Asia,Southern Asia,Africa,"False, cross-region",True,True,True
+The city of Aligarh is in India.,1,Aligarh,India,India,Asia,Southern Asia,Asia,True statements,True,True,True
+The city of Aligarh is in China.,0,Aligarh,China,India,Asia,Southern Asia,Asia,"False, same region",True,True,True
+The city of Semarang is in Indonesia.,1,Semarang,Indonesia,Indonesia,Asia,South-eastern Asia,Asia,True statements,True,True,True
+The city of Semarang is in Saudi Arabia.,0,Semarang,Saudi Arabia,Indonesia,Asia,South-eastern Asia,Asia,"False, same region",True,True,True
+The city of Zaozhuang is in China.,1,Zaozhuang,China,China,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Zaozhuang is in Belarus.,0,Zaozhuang,Belarus,China,Asia,Eastern Asia,Europe,"False, cross-region",True,True,True
+The city of Maoming is in China.,1,Maoming,China,China,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Maoming is in Brazil.,0,Maoming,Brazil,China,Asia,Eastern Asia,Americas,"False, cross-region",True,True,True
+The city of Siping is in China.,1,Siping,China,China,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Siping is in Iraq.,0,Siping,Iraq,China,Asia,Eastern Asia,Asia,"False, same region",True,True,True
+The city of Cotonou is in Benin.,1,Cotonou,Benin,Benin,Africa,Sub-Saharan Africa,Africa,True statements,True,True,True
+The city of Cotonou is in China.,0,Cotonou,China,Benin,Africa,Sub-Saharan Africa,Asia,"False, cross-region",True,True,True
+The city of Nagoya is in Japan.,1,Nagoya,Japan,Japan,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Nagoya is in China.,0,Nagoya,China,Japan,Asia,Eastern Asia,Asia,"False, same region",True,True,True
+The city of Lilongwe is in Malawi.,1,Lilongwe,Malawi,Malawi,Africa,Sub-Saharan Africa,Africa,True statements,True,True,True
+The city of Lilongwe is in Turkey.,0,Lilongwe,Turkey,Malawi,Africa,Sub-Saharan Africa,Asia,"False, cross-region",True,True,True
+The city of Kharkiv is in Ukraine.,1,Kharkiv,Ukraine,Ukraine,Europe,Eastern Europe,Europe,True statements,True,True,True
+The city of Kharkiv is in Moldova.,0,Kharkiv,Moldova,Ukraine,Europe,Eastern Europe,Europe,"False, same region",True,True,True
+The city of Malatya is in Turkey.,1,Malatya,Turkey,Turkey,Asia,Western Asia,Asia,True statements,True,True,True
+The city of Malatya is in Russia.,0,Malatya,Russia,Turkey,Asia,Western Asia,Europe,"False, cross-region",True,True,True
+The city of Lviv is in Ukraine.,1,Lviv,Ukraine,Ukraine,Europe,Eastern Europe,Europe,True statements,True,True,True
+The city of Lviv is in China.,0,Lviv,China,Ukraine,Europe,Eastern Europe,Asia,"False, cross-region",True,True,True
+The city of Tehran is in Iran.,1,Tehran,Iran,Iran,Asia,Southern Asia,Asia,True statements,True,True,True
+The city of Tehran is in Niger.,0,Tehran,Niger,Iran,Asia,Southern Asia,Africa,"False, cross-region",True,True,True
+The city of Recife is in Brazil.,1,Recife,Brazil,Brazil,Americas,Latin America and the Caribbean,Americas,True statements,True,True,True
+The city of Recife is in North Korea.,0,Recife,North Korea,Brazil,Americas,Latin America and the Caribbean,Asia,"False, cross-region",True,True,True
+The city of Asyut is in Egypt.,1,Asyut,Egypt,Egypt,Africa,Northern Africa,Africa,True statements,True,True,True
+The city of Asyut is in Japan.,0,Asyut,Japan,Egypt,Africa,Northern Africa,Asia,"False, cross-region",True,True,True
+The city of Yinchuan is in China.,1,Yinchuan,China,China,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Yinchuan is in Bangladesh.,0,Yinchuan,Bangladesh,China,Asia,Eastern Asia,Asia,"False, same region",True,True,True
+The city of Jieyang is in China.,1,Jieyang,China,China,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Jieyang is in the Philippines.,0,Jieyang,the Philippines,China,Asia,Eastern Asia,Asia,"False, same region",True,True,True
+The city of Longyan is in China.,1,Longyan,China,China,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Longyan is in Benin.,0,Longyan,Benin,China,Asia,Eastern Asia,Africa,"False, cross-region",True,True,True
+The city of Dandong is in China.,1,Dandong,China,China,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Dandong is in Niger.,0,Dandong,Niger,China,Asia,Eastern Asia,Africa,"False, cross-region",True,True,True
+The city of Lusaka is in Zambia.,1,Lusaka,Zambia,Zambia,Africa,Sub-Saharan Africa,Africa,True statements,True,True,True
+The city of Lusaka is in Poland.,0,Lusaka,Poland,Zambia,Africa,Sub-Saharan Africa,Europe,"False, cross-region",True,True,True
+The city of Aden is in Yemen.,1,Aden,Yemen,Yemen,Asia,Western Asia,Asia,True statements,True,True,True
+The city of Aden is in Japan.,0,Aden,Japan,Yemen,Asia,Western Asia,Asia,"False, same region",True,True,True
+The city of Londrina is in Brazil.,1,Londrina,Brazil,Brazil,Americas,Latin America and the Caribbean,Americas,True statements,True,True,True
+The city of Londrina is in India.,0,Londrina,India,Brazil,Americas,Latin America and the Caribbean,Asia,"False, cross-region",True,True,True
+The city of Kunshan is in China.,1,Kunshan,China,China,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Kunshan is in Russia.,0,Kunshan,Russia,China,Asia,Eastern Asia,Europe,"False, cross-region",True,True,True
+The city of Yichang is in China.,1,Yichang,China,China,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Yichang is in Japan.,0,Yichang,Japan,China,Asia,Eastern Asia,Asia,"False, same region",True,True,True
+The city of Rangpur is in Bangladesh.,1,Rangpur,Bangladesh,Bangladesh,Asia,Southern Asia,Asia,True statements,True,True,True
+The city of Rangpur is in Russia.,0,Rangpur,Russia,Bangladesh,Asia,Southern Asia,Europe,"False, cross-region",True,True,True
+The city of Ashgabat is in Turkmenistan.,1,Ashgabat,Turkmenistan,Turkmenistan,Asia,Central Asia,Asia,True statements,True,True,True
+The city of Ashgabat is in Bangladesh.,0,Ashgabat,Bangladesh,Turkmenistan,Asia,Central Asia,Asia,"False, same region",True,True,True
+The city of Nasiriyah is in Iraq.,1,Nasiriyah,Iraq,Iraq,Asia,Western Asia,Asia,True statements,True,True,True
+The city of Nasiriyah is in Rwanda.,0,Nasiriyah,Rwanda,Iraq,Asia,Western Asia,Africa,"False, cross-region",True,True,True
+The city of Kahriz is in Iran.,1,Kahriz,Iran,Iran,Asia,Southern Asia,Asia,True statements,True,True,True
+The city of Kahriz is in Uzbekistan.,0,Kahriz,Uzbekistan,Iran,Asia,Southern Asia,Asia,"False, same region",True,True,True
+The city of Vladivostok is in Russia.,1,Vladivostok,Russia,Russia,Europe,Eastern Europe,Europe,True statements,True,True,True
+The city of Vladivostok is in Romania.,0,Vladivostok,Romania,Russia,Europe,Eastern Europe,Europe,"False, same region",True,True,True
+The city of Adana is in Turkey.,1,Adana,Turkey,Turkey,Asia,Western Asia,Asia,True statements,True,True,True
+The city of Adana is in Togo.,0,Adana,Togo,Turkey,Asia,Western Asia,Africa,"False, cross-region",True,True,True
+The city of Namangan is in Uzbekistan.,1,Namangan,Uzbekistan,Uzbekistan,Asia,Central Asia,Asia,True statements,True,True,True
+The city of Namangan is in India.,0,Namangan,India,Uzbekistan,Asia,Central Asia,Asia,"False, same region",True,True,True
+The city of Shivaji Nagar is in India.,1,Shivaji Nagar,India,India,Asia,Southern Asia,Asia,True statements,True,True,True
+The city of Shivaji Nagar is in China.,0,Shivaji Nagar,China,India,Asia,Southern Asia,Asia,"False, same region",True,True,True
+The city of Sanya is in China.,1,Sanya,China,China,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Sanya is in India.,0,Sanya,India,China,Asia,Eastern Asia,Asia,"False, same region",True,True,True
+The city of Al Ain City is in the United Arab Emirates.,1,Al Ain City,the United Arab Emirates,the United Arab Emirates,Asia,Western Asia,Asia,True statements,True,True,True
+The city of Al Ain City is in India.,0,Al Ain City,India,the United Arab Emirates,Asia,Western Asia,Asia,"False, same region",True,True,True
+The city of Tegucigalpa is in Honduras.,1,Tegucigalpa,Honduras,Honduras,Americas,Latin America and the Caribbean,Americas,True statements,True,True,True
+The city of Tegucigalpa is in China.,0,Tegucigalpa,China,Honduras,Americas,Latin America and the Caribbean,Asia,"False, cross-region",True,True,True
+The city of Dombivli is in India.,1,Dombivli,India,India,Asia,Southern Asia,Asia,True statements,True,True,True
+The city of Dombivli is in Mali.,0,Dombivli,Mali,India,Asia,Southern Asia,Africa,"False, cross-region",True,True,True
+The city of Kallakurichi is in India.,1,Kallakurichi,India,India,Asia,Southern Asia,Asia,True statements,True,True,True
+The city of Kallakurichi is in Iraq.,0,Kallakurichi,Iraq,India,Asia,Southern Asia,Asia,"False, same region",True,True,True
+The city of Santa Maria Chimalhuacan is in Mexico.,1,Santa Maria Chimalhuacan,Mexico,Mexico,Americas,Latin America and the Caribbean,Americas,True statements,True,True,True
+The city of Santa Maria Chimalhuacan is in Saudi Arabia.,0,Santa Maria Chimalhuacan,Saudi Arabia,Mexico,Americas,Latin America and the Caribbean,Asia,"False, cross-region",True,True,True
+The city of Kalyan is in India.,1,Kalyan,India,India,Asia,Southern Asia,Asia,True statements,True,True,True
+The city of Kalyan is in South Korea.,0,Kalyan,South Korea,India,Asia,Southern Asia,Asia,"False, same region",True,True,True
+The city of Bhavnagar is in India.,1,Bhavnagar,India,India,Asia,Southern Asia,Asia,True statements,True,True,True
+The city of Bhavnagar is in Japan.,0,Bhavnagar,Japan,India,Asia,Southern Asia,Asia,"False, same region",True,True,True
+The city of Erzurum is in Turkey.,1,Erzurum,Turkey,Turkey,Asia,Western Asia,Asia,True statements,True,True,True
+The city of Erzurum is in the Democratic Republic of the Congo.,0,Erzurum,the Democratic Republic of the Congo,Turkey,Asia,Western Asia,Africa,"False, cross-region",True,True,True
+The city of Barquisimeto is in Venezuela.,1,Barquisimeto,Venezuela,Venezuela,Americas,Latin America and the Caribbean,Americas,True statements,True,True,True
+The city of Barquisimeto is in Poland.,0,Barquisimeto,Poland,Venezuela,Americas,Latin America and the Caribbean,Europe,"False, cross-region",True,True,True
+The city of Krasnoyarsk is in Russia.,1,Krasnoyarsk,Russia,Russia,Europe,Eastern Europe,Europe,True statements,True,True,True
+The city of Krasnoyarsk is in India.,0,Krasnoyarsk,India,Russia,Europe,Eastern Europe,Asia,"False, cross-region",True,True,True
+The city of Pingliang is in China.,1,Pingliang,China,China,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Pingliang is in Tanzania.,0,Pingliang,Tanzania,China,Asia,Eastern Asia,Africa,"False, cross-region",True,True,True
+The city of Puning is in China.,1,Puning,China,China,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Puning is in India.,0,Puning,India,China,Asia,Eastern Asia,Asia,"False, same region",True,True,True
+The city of Oslo is in Norway.,1,Oslo,Norway,Norway,Europe,Northern Europe,Europe,True statements,True,True,True
+The city of Oslo is in Venezuela.,0,Oslo,Venezuela,Norway,Europe,Northern Europe,Americas,"False, cross-region",True,True,True
+The city of Ryazan' is in Russia.,1,Ryazan',Russia,Russia,Europe,Eastern Europe,Europe,True statements,True,True,True
+The city of Ryazan' is in South Korea.,0,Ryazan',South Korea,Russia,Europe,Eastern Europe,Asia,"False, cross-region",True,True,True
+The city of Ho Chi Minh City is in Vietnam.,1,Ho Chi Minh City,Vietnam,Vietnam,Asia,South-eastern Asia,Asia,True statements,True,True,True
+The city of Ho Chi Minh City is in Gabon.,0,Ho Chi Minh City,Gabon,Vietnam,Asia,South-eastern Asia,Africa,"False, cross-region",True,True,True
+The city of Hefei is in China.,1,Hefei,China,China,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Hefei is in Germany.,0,Hefei,Germany,China,Asia,Eastern Asia,Europe,"False, cross-region",True,True,True
+The city of Chisinau is in Moldova.,1,Chisinau,Moldova,Moldova,Europe,Eastern Europe,Europe,True statements,True,True,True
+The city of Chisinau is in Germany.,0,Chisinau,Germany,Moldova,Europe,Eastern Europe,Europe,"False, same region",True,True,True
+The city of Tiruppur is in India.,1,Tiruppur,India,India,Asia,Southern Asia,Asia,True statements,True,True,True
+The city of Tiruppur is in Japan.,0,Tiruppur,Japan,India,Asia,Southern Asia,Asia,"False, same region",True,True,True
+The city of Kyoto is in Japan.,1,Kyoto,Japan,Japan,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Kyoto is in China.,0,Kyoto,China,Japan,Asia,Eastern Asia,Asia,"False, same region",True,True,True
+The city of Samarkand is in Uzbekistan.,1,Samarkand,Uzbekistan,Uzbekistan,Asia,Central Asia,Asia,True statements,True,True,True
+The city of Samarkand is in China.,0,Samarkand,China,Uzbekistan,Asia,Central Asia,Asia,"False, same region",True,True,True
+The city of Tomsk is in Russia.,1,Tomsk,Russia,Russia,Europe,Eastern Europe,Europe,True statements,True,True,True
+The city of Tomsk is in Ghana.,0,Tomsk,Ghana,Russia,Europe,Eastern Europe,Africa,"False, cross-region",True,True,True
+The city of Oklahoma City is in the United States.,1,Oklahoma City,the United States,the United States,Americas,Northern America,Americas,True statements,True,True,True
+The city of Oklahoma City is in China.,0,Oklahoma City,China,the United States,Americas,Northern America,Asia,"False, cross-region",True,True,True
+The city of Jiaozuo is in China.,1,Jiaozuo,China,China,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Jiaozuo is in Bangladesh.,0,Jiaozuo,Bangladesh,China,Asia,Eastern Asia,Asia,"False, same region",True,True,True
+The city of Tabriz is in Iran.,1,Tabriz,Iran,Iran,Asia,Southern Asia,Asia,True statements,True,True,True
+The city of Tabriz is in India.,0,Tabriz,India,Iran,Asia,Southern Asia,Asia,"False, same region",True,True,True
+The city of Kota Kinabalu is in Malaysia.,1,Kota Kinabalu,Malaysia,Malaysia,Asia,South-eastern Asia,Asia,True statements,True,True,True
+The city of Kota Kinabalu is in the United States.,0,Kota Kinabalu,the United States,Malaysia,Asia,South-eastern Asia,Americas,"False, cross-region",True,True,True
+The city of Nairobi is in Kenya.,1,Nairobi,Kenya,Kenya,Africa,Sub-Saharan Africa,Africa,True statements,True,True,True
+The city of Nairobi is in Mexico.,0,Nairobi,Mexico,Kenya,Africa,Sub-Saharan Africa,Americas,"False, cross-region",True,True,True
+The city of Quezon City is in the Philippines.,1,Quezon City,the Philippines,the Philippines,Asia,South-eastern Asia,Asia,True statements,True,True,True
+The city of Quezon City is in China.,0,Quezon City,China,the Philippines,Asia,South-eastern Asia,Asia,"False, same region",True,True,True
+The city of Fes is in Morocco.,1,Fes,Morocco,Morocco,Africa,Northern Africa,Africa,True statements,True,True,True
+The city of Fes is in Mali.,0,Fes,Mali,Morocco,Africa,Northern Africa,Africa,"False, same region",True,True,True
+The city of Sanaa is in Yemen.,1,Sanaa,Yemen,Yemen,Asia,Western Asia,Asia,True statements,True,True,True
+The city of Sanaa is in China.,0,Sanaa,China,Yemen,Asia,Western Asia,Asia,"False, same region",True,True,True
+The city of Pretoria is in South Africa.,1,Pretoria,South Africa,South Africa,Africa,Sub-Saharan Africa,Africa,True statements,True,True,True
+The city of Pretoria is in India.,0,Pretoria,India,South Africa,Africa,Sub-Saharan Africa,Asia,"False, cross-region",True,True,True
+The city of Guiyang is in China.,1,Guiyang,China,China,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Guiyang is in South Korea.,0,Guiyang,South Korea,China,Asia,Eastern Asia,Asia,"False, same region",True,True,True
+The city of Ganzhou is in China.,1,Ganzhou,China,China,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Ganzhou is in South Korea.,0,Ganzhou,South Korea,China,Asia,Eastern Asia,Asia,"False, same region",True,True,True
+The city of Suining is in China.,1,Suining,China,China,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Suining is in Algeria.,0,Suining,Algeria,China,Asia,Eastern Asia,Africa,"False, cross-region",True,True,True
+The city of Jinan is in China.,1,Jinan,China,China,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Jinan is in Rwanda.,0,Jinan,Rwanda,China,Asia,Eastern Asia,Africa,"False, cross-region",True,True,True
+The city of Putian is in China.,1,Putian,China,China,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Putian is in Vietnam.,0,Putian,Vietnam,China,Asia,Eastern Asia,Asia,"False, same region",True,True,True
+The city of Shenyang is in China.,1,Shenyang,China,China,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Shenyang is in Somalia.,0,Shenyang,Somalia,China,Asia,Eastern Asia,Africa,"False, cross-region",True,True,True
+The city of Duque de Caxias is in Brazil.,1,Duque de Caxias,Brazil,Brazil,Americas,Latin America and the Caribbean,Americas,True statements,True,True,True
+The city of Duque de Caxias is in Côte d'Ivoire.,0,Duque de Caxias,Côte d'Ivoire,Brazil,Americas,Latin America and the Caribbean,Africa,"False, cross-region",True,True,True
+The city of Nampula is in Mozambique.,1,Nampula,Mozambique,Mozambique,Africa,Sub-Saharan Africa,Africa,True statements,True,True,True
+The city of Nampula is in India.,0,Nampula,India,Mozambique,Africa,Sub-Saharan Africa,Asia,"False, cross-region",True,True,True
+The city of Amritsar is in India.,1,Amritsar,India,India,Asia,Southern Asia,Asia,True statements,True,True,True
+The city of Amritsar is in Moldova.,0,Amritsar,Moldova,India,Asia,Southern Asia,Europe,"False, cross-region",True,True,True
+The city of Ilorin is in Nigeria.,1,Ilorin,Nigeria,Nigeria,Africa,Sub-Saharan Africa,Africa,True statements,True,True,True
+The city of Ilorin is in Ukraine.,0,Ilorin,Ukraine,Nigeria,Africa,Sub-Saharan Africa,Europe,"False, cross-region",True,True,True
+The city of Khartoum is in Sudan.,1,Khartoum,Sudan,Sudan,Africa,Northern Africa,Africa,True statements,True,True,True
+The city of Khartoum is in China.,0,Khartoum,China,Sudan,Africa,Northern Africa,Asia,"False, cross-region",True,True,True
+The city of Gujranwala is in Pakistan.,1,Gujranwala,Pakistan,Pakistan,Asia,Southern Asia,Asia,True statements,True,True,True
+The city of Gujranwala is in China.,0,Gujranwala,China,Pakistan,Asia,Southern Asia,Asia,"False, same region",True,True,True
+The city of Ulhasnagar is in India.,1,Ulhasnagar,India,India,Asia,Southern Asia,Asia,True statements,True,True,True
+The city of Ulhasnagar is in Senegal.,0,Ulhasnagar,Senegal,India,Asia,Southern Asia,Africa,"False, cross-region",True,True,True
+The city of Kolkata is in India.,1,Kolkata,India,India,Asia,Southern Asia,Asia,True statements,True,True,True
+The city of Kolkata is in Japan.,0,Kolkata,Japan,India,Asia,Southern Asia,Asia,"False, same region",True,True,True
+The city of Batam is in Indonesia.,1,Batam,Indonesia,Indonesia,Asia,South-eastern Asia,Asia,True statements,True,True,True
+The city of Batam is in Turkey.,0,Batam,Turkey,Indonesia,Asia,South-eastern Asia,Asia,"False, same region",True,True,True
+The city of Xingtai is in China.,1,Xingtai,China,China,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Xingtai is in Russia.,0,Xingtai,Russia,China,Asia,Eastern Asia,Europe,"False, cross-region",True,True,True
+The city of Qujing is in China.,1,Qujing,China,China,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Qujing is in India.,0,Qujing,India,China,Asia,Eastern Asia,Asia,"False, same region",True,True,True
+The city of Fuxin is in China.,1,Fuxin,China,China,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Fuxin is in Pakistan.,0,Fuxin,Pakistan,China,Asia,Eastern Asia,Asia,"False, same region",True,True,True
+The city of Salta is in Argentina.,1,Salta,Argentina,Argentina,Americas,Latin America and the Caribbean,Americas,True statements,True,True,True
+The city of Salta is in India.,0,Salta,India,Argentina,Americas,Latin America and the Caribbean,Asia,"False, cross-region",True,True,True
+The city of Cankaya is in Turkey.,1,Cankaya,Turkey,Turkey,Asia,Western Asia,Asia,True statements,True,True,True
+The city of Cankaya is in the United States.,0,Cankaya,the United States,Turkey,Asia,Western Asia,Americas,"False, cross-region",True,True,True
+The city of Reynosa is in Mexico.,1,Reynosa,Mexico,Mexico,Americas,Latin America and the Caribbean,Americas,True statements,True,True,True
+The city of Reynosa is in China.,0,Reynosa,China,Mexico,Americas,Latin America and the Caribbean,Asia,"False, cross-region",True,True,True
+The city of Ibague is in Colombia.,1,Ibague,Colombia,Colombia,Americas,Latin America and the Caribbean,Americas,True statements,True,True,True
+The city of Ibague is in Finland.,0,Ibague,Finland,Colombia,Americas,Latin America and the Caribbean,Europe,"False, cross-region",True,True,True
+The city of Hengyang is in China.,1,Hengyang,China,China,Asia,Eastern Asia,Asia,True statements,True,True,True
+The city of Hengyang is in Turkey.,0,Hengyang,Turkey,China,Asia,Eastern Asia,Asia,"False, same region",True,True,True
+The city of Tangerang is in Indonesia.,1,Tangerang,Indonesia,Indonesia,Asia,South-eastern Asia,Asia,True statements,False,False,True
+The city of Tangerang is in China.,0,Tangerang,China,Indonesia,Asia,South-eastern Asia,Asia,"False, same region",True,True,True

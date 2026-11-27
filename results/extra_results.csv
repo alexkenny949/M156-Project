@@ -1,0 +1,26 @@
+section,dataset,method,metric,value,ci_low,ci_high,notes
+Learning curve,cities test,LR,test_accuracy_10_cities,0.5,,,mean over 5 random subsets; sd = 0.0000
+Learning curve,cities test,LR,test_accuracy_25_cities,0.9813,,,mean over 5 random subsets; sd = 0.0096
+Learning curve,cities test,LR,test_accuracy_50_cities,0.9867,,,mean over 5 random subsets; sd = 0.0041
+Learning curve,cities test,LR,test_accuracy_100_cities,0.9953,,,mean over 5 random subsets; sd = 0.0018
+Learning curve,cities test,LR,test_accuracy_200_cities,0.9953,,,mean over 5 random subsets; sd = 0.0018
+Learning curve,cities test,LR,test_accuracy_598_cities,0.9967,,,mean over 1 random subsets; sd = 0.0000
+Learning curve,cities test,RF,test_accuracy_10_cities,0.984,,,mean over 5 random subsets; sd = 0.0072
+Learning curve,cities test,RF,test_accuracy_25_cities,0.9887,,,mean over 5 random subsets; sd = 0.0051
+Learning curve,cities test,RF,test_accuracy_50_cities,0.9887,,,mean over 5 random subsets; sd = 0.0018
+Learning curve,cities test,RF,test_accuracy_100_cities,0.9927,,,mean over 5 random subsets; sd = 0.0037
+Learning curve,cities test,RF,test_accuracy_200_cities,0.9947,,,mean over 5 random subsets; sd = 0.0018
+Learning curve,cities test,RF,test_accuracy_598_cities,0.9967,,,mean over 1 random subsets; sd = 0.0000
+Hard negatives,cities test,LR,"accuracy_False, same region",1.0,1.0,1.0,"n = 63, errors = 0; 95% CI city-level bootstrap (1000)"
+Hard negatives,cities test,RF,"accuracy_False, same region",1.0,1.0,1.0,"n = 63, errors = 0; 95% CI city-level bootstrap (1000)"
+Hard negatives,cities test,Chat baseline,"accuracy_False, same region",1.0,1.0,1.0,"n = 63, errors = 0; 95% CI city-level bootstrap (1000)"
+Hard negatives,cities test,LR,"accuracy_False, cross-region",1.0,1.0,1.0,"n = 87, errors = 0; 95% CI city-level bootstrap (1000)"
+Hard negatives,cities test,RF,"accuracy_False, cross-region",1.0,1.0,1.0,"n = 87, errors = 0; 95% CI city-level bootstrap (1000)"
+Hard negatives,cities test,Chat baseline,"accuracy_False, cross-region",1.0,1.0,1.0,"n = 87, errors = 0; 95% CI city-level bootstrap (1000)"
+Hard negatives,cities test,LR,accuracy_True statements,0.9933,0.98,1.0,"n = 150, errors = 1; 95% CI city-level bootstrap (1000)"
+Hard negatives,cities test,RF,accuracy_True statements,0.9933,0.98,1.0,"n = 150, errors = 1; 95% CI city-level bootstrap (1000)"
+Hard negatives,cities test,Chat baseline,accuracy_True statements,0.9867,0.9667,1.0,"n = 150, errors = 2; 95% CI city-level bootstrap (1000)"
+Hard negatives,cities test,data,n_same_region_false_Asia,58.0,,,
+Hard negatives,cities test,data,n_same_region_false_Europe,3.0,,,
+Hard negatives,cities test,data,n_same_region_false_Americas,1.0,,,
+Hard negatives,cities test,data,n_same_region_false_Africa,1.0,,,
